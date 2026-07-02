@@ -1,0 +1,28 @@
+---
+
+### 2. `.gitignore`
+Even if you aren't using a package manager right now, it is a best practice to include a `.gitignore` file. This prevents your operating system or code editor from accidentally uploading hidden configuration files to GitHub.
+
+```text
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore node_modules if you ever decide to install Tailwind locally in the future
+node_modules/
+npm-debug.log
+yarn-error.log
