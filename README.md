@@ -18,4 +18,4 @@ A responsive, single-page website for **DAIDAI**, an authentic Filipino kitchene
 Because this is a static, CDN-powered website, there is no build process or installation required. 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/rtoledo-acc/daidai-website.git](https://github.com/rtoledo-acc/daidai-website.git)
+   git clone [https://github.com/rtoledo-acc/MyDaiDai-Online.git](https://github.com/rtoledo-acc/MyDaiDai-Online.git)
