@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAIDAI | Authentic Filipino Cuisine in Aichi, Japan</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan. Taste the warmth of Filipino hospitality.">
+    <meta name="keywords" content="Filipino food, Philippine cuisine, DAIDAI, Aichi, Kiyosu-shi, Japan restaurant, sari-sari store, ihawan, Filipino grocery, halo-halo">
+    <meta name="author" content="DAIDAI">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mydaidai.online/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mydaidai.online/">
+    <meta property="og:title" content="DAIDAI | Authentic Filipino Cuisine in Aichi, Japan">
+    <meta property="og:description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan.">
+    <meta property="og:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mydaidai.online/">
+    <meta name="twitter:title" content="DAIDAI | Authentic Filipino Cuisine in Aichi, Japan">
+    <meta name="twitter:description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan.">
+    <meta name="twitter:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'Noto Sans JP', 'sans-serif'],
+                        script: ['Dancing Script', 'cursive'],
+                    },
+                    colors: {
+                        ph: {
+                            blue: '#0038A8',
+                            red: '#CE1126',
+                            yellow: '#FCD116',
+                        },
+                        daidai: {
+                            orange: '#F97316',
+                            light: '#FFF7ED',
+                            dark: '#1E293B',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-daidai-dark bg-daidai-light overflow-x-hidden">
+
+    <section id="home">
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="flex items-center gap-2">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-40 h-auto object-cover">
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#home" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Home<span class="text-xs font-normal block">ホームページ</span></a>
+                    <a href="#about" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">About<span class="text-xs font-normal block">当店について</span></a>
+                    <a href="#menu" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Menu<span class="text-xs font-normal block">メニュー</span></a>
+                    <a href="#store" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Store<span class="text-xs font-normal block">店舗情報</span></a>
+                    <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="bg-ph-blue hover:bg-blue-800 text-white px-5 py-2 rounded-full font-bold transition shadow-lg flex items-center gap-2">
+                        <i class="fa-brands fa-facebook"></i> Message Us / お問い合わせ
+                    </a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-daidai-orange focus:outline-none p-2">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="#home" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Home / ホームページ</a>
+                <a href="#about" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">About / 当店について</a>
+                <a href="#menu" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Menu / メニュー</a>
+                <a href="#store" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Store / 店舗情報</a>
+                <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="block px-3 py-3 text-base font-bold text-ph-blue hover:bg-gray-50 rounded-md">
+                    <i class="fa-brands fa-facebook mr-2"></i> Facebook / お問い合わせ
+                </a>
+            </div>
+        </div>
+    </nav>
+    </section>
+
+    <section class="relative pt-20 h-[90vh] min-h-[600px] flex items-center bg-gray-100">
+        <div class="absolute inset-0 z-0 overflow-hidden">
+            <img src="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png" 
+                 alt="Filipino Food Background" 
+                 class="w-full h-full object-cover object-center opacity-90">
+        </div>
+        
+        <div class="hero-overlay absolute inset-0 z-10"></div>
+
+        <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="max-w-2xl">
+                <h2 class="font-script text-4xl md:text-5xl lg:text-6xl text-daidai-orange mb-2 transform -rotate-2">Authentic</h2>
+                <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-ph-red leading-tight mb-2">
+                    FILIPINO<br>
+                    <span class="text-ph-blue">CUISINE</span>
+                </h1>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 font-sans">フィリピン料理</h2>
+                
+                <p class="text-lg md:text-xl text-gray-700 mb-8 font-medium italic border-l-4 border-ph-yellow pl-4">
+                    "Tindahan • Ihawan • Kitchenette"<br>
+                    <span class="text-sm md:text-base font-normal not-italic text-gray-600 mt-2 block">
+                        Serving authentic Filipino dishes, value meals, and party packages with the warmth of Filipino hospitality in Japan.
+                    </span>
+                </p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-4">
+                  <a href="#menu" class="text-center bg-ph-red hover:bg-red-700 text-white px-8 py-3 rounded-full font-bold shadow-lg transition transform hover:-translate-y-1">
+                    View Menu <span class="text-sm font-normal block">メニューを見る</span>
+                  </a>
+                  <a href="#store" class="text-center bg-white border-2 border-daidai-orange text-daidai-orange hover:bg-orange-50 px-8 py-3 rounded-full font-bold shadow-lg transition transform hover:-translate-y-1">
+                    Visit Us <span class="text-sm font-normal block">アクセス</span>
+                  </a>
+                  <a href="https://www.ubereats.com/jp/store/%E3%83%95%E3%82%A3%E3%83%AA%E3%83%92%E3%83%B3%E6%96%99%E7%90%86dai-dai/myHrr6M3XQ6F_5cIG_fPrQ?utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=AE37R_gNrb6aa7eHFQ2urVOMIP7gnj5B5e2uRKj6NoKbpucUi1gRUm4Co1je5BCZh-rHpC6dmXWav4PhzFD314edvUxwutAS5w%3D%3D" target="_blank" rel="noopener noreferrer" class="text-center bg-[#06C167] hover:bg-green-700 text-white px-8 py-3 rounded-full font-bold shadow-lg transition transform hover:-translate-y-1">
+                  Uber Eats <span class="text-sm font-normal block">デリバリー</span>
+                  </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 bg-white relative z-20 -mt-10 mx-4 md:mx-auto max-w-6xl rounded-2xl shadow-xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
+            <div class="text-center p-4">
+                <div class="w-20 h-20 mx-auto bg-orange-100 rounded-full flex items-center justify-center mb-4 text-daidai-orange shadow-inner">
+                    <i class="fa-solid fa-utensils text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-ph-blue mb-1">Kainan</h3>
+                <p class="text-sm text-gray-500 mb-3">Kitchenette / 食堂</p>
+                <p class="text-gray-600">Enjoy freshly cooked authentic Filipino dishes. Perfect for lunch or dinner with family and friends.</p>
+            </div>
+            <div class="text-center p-4 border-t md:border-t-0 md:border-l md:border-r border-gray-200">
+                <div class="w-20 h-20 mx-auto bg-red-100 rounded-full flex items-center justify-center mb-4 text-ph-red shadow-inner">
+                    <i class="fa-solid fa-fire-burner text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-ph-blue mb-1">Ihawan</h3>
+                <p class="text-sm text-gray-500 mb-3">Grill / バーベキュー</p>
+                <p class="text-gray-600">Taste the best Filipino BBQ. Skewers, grilled meats, and seafood cooked with traditional flavors.</p>
+            </div>
+            <div class="text-center p-4 border-t md:border-t-0 border-gray-200">
+                <div class="w-20 h-20 mx-auto bg-blue-100 rounded-full flex items-center justify-center mb-4 text-ph-blue shadow-inner">
+                    <i class="fa-solid fa-shop text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-ph-blue mb-1">Tindahan</h3>
+                <p class="text-sm text-gray-500 mb-3">Sari-Sari Store / 食料品店</p>
+                <p class="text-gray-600">Your local source for Filipino groceries, snacks, ingredients, and imported goods right here in Japan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-20 bg-daidai-light clip-path-slant pb-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="font-script text-3xl text-ph-red mb-2">Taste of Home</h2>
+                <h3 class="text-4xl md:text-5xl font-extrabold text-daidai-dark mb-4">Our Menu</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-8">Authentic flavors cooked fresh daily. Here are some of our staples!</p>
+                
+                <div class="flex flex-wrap justify-center gap-3 mb-10">
+                    <button onclick="openTab(event, 'meals')" class="tab-btn active px-6 py-2 rounded-full border-2 border-gray-300 text-gray-600 font-bold transition hover:border-daidai-orange hover:text-daidai-orange">Meals for Today</button>
+                    <button onclick="openTab(event, 'desserts')" class="tab-btn px-6 py-2 rounded-full border-2 border-gray-300 text-gray-600 font-bold transition hover:border-daidai-orange hover:text-daidai-orange">Desserts</button>
+                    <button onclick="openTab(event, 'ihawan')" class="tab-btn px-6 py-2 rounded-full border-2 border-gray-300 text-gray-600 font-bold transition hover:border-daidai-orange hover:text-daidai-orange">Ihawan (Grill)</button>
+                </div>
+            </div>
+
+            <div id="meals" class="menu-category active">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-blue">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Beef Caldereta</h4>
+                            <span class="text-daidai-orange font-bold">¥700</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Hearty beef stew cooked in rich tomato sauce with potatoes and carrots.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-blue">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Pork Dinuguan</h4>
+                            <span class="text-daidai-orange font-bold">¥600</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Savory pork stew simmered in a rich, dark gravy of pig's blood and vinegar.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-blue">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Bicol Express</h4>
+                            <span class="text-daidai-orange font-bold">¥600</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Spicy pork stew cooked with coconut milk, shrimp paste, and chili peppers.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-blue">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Nilagang Baka</h4>
+                            <span class="text-daidai-orange font-bold">¥1000</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Comforting Filipino beef soup with cabbage, potatoes, and corn.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-blue">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Ginataang Kalabasa</h4>
+                            <span class="text-daidai-orange font-bold">¥600</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Squash and string beans cooked in creamy coconut milk.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-blue">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Lumpiang Shanghai</h4>
+                            <span class="text-daidai-orange font-bold">¥600</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Crispy Filipino spring rolls filled with savory minced pork and vegetables.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="desserts" class="menu-category">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-yellow">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Halo-Halo</h4>
+                            <span class="text-daidai-orange font-bold">¥600 (M) / ¥800 (L)</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Famous crushed ice dessert with sweet preserves, evaporated milk, and ube.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-yellow">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Turon w/ Ice Cream</h4>
+                            <span class="text-daidai-orange font-bold">¥400</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Deep-fried banana rolls wrapped in spring roll wrapper, topped with ice cream.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-yellow">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Ube Biko / Biko</h4>
+                            <span class="text-daidai-orange font-bold">¥600 / ¥500</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Sweet sticky rice cake topped with latik (coconut curds). Classic or Ube flavor.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-yellow">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Bilo-Bilo</h4>
+                            <span class="text-daidai-orange font-bold">¥500</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Chewy glutinous rice balls in sweet coconut milk with jackfruit and tapioca pearls.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-yellow">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-xl font-bold">Buko Pandan</h4>
+                            <span class="text-daidai-orange font-bold">¥500</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">Sweet and creamy dessert made with young coconut, pandan jelly, and cream.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ihawan" class="menu-category">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-red">
+                        <h4 class="text-xl font-bold mb-2">Pork BBQ Skewers</h4>
+                        <p class="text-gray-500 text-sm mb-3">Authentic Filipino street food style pork barbecue, marinated in a sweet and savory sauce.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-red">
+                        <h4 class="text-xl font-bold mb-2">Inihaw na Liempo</h4>
+                        <p class="text-gray-500 text-sm mb-3">Grilled pork belly marinated in soy sauce, calamansi, and garlic.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md border-l-4 border-ph-red">
+                        <h4 class="text-xl font-bold mb-2">Party Trays & Bilao</h4>
+                        <p class="text-gray-500 text-sm mb-3">Available for pre-order! Perfect combinations of grilled items and pancit for your special events.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="inline-flex items-center gap-2 bg-white border-2 border-ph-blue text-ph-blue hover:bg-ph-blue hover:text-white px-6 py-3 rounded-full font-bold transition">
+                    <i class="fa-brands fa-facebook"></i> Message us for the full Daily Menu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="store" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-12 items-center">
+                
+                <div class="w-full lg:w-1/2">
+                    <h2 class="font-script text-3xl text-daidai-orange mb-2">Visit Us</h2>
+                    <h3 class="text-4xl md:text-5xl font-extrabold text-daidai-dark mb-6">Our Store <span class="text-2xl font-sans font-bold text-gray-400">/ 店舗情報</span></h3>
+                    
+                    <p class="text-gray-600 mb-8 text-lg">
+                        Come visit our cozy kitchenette and store. Look for the bright orange building with the Philippine flag! We offer a wide variety of meals for dine-in and takeout, plus a fully stocked Sari-Sari store for your daily needs.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-orange-100 p-3 rounded-full text-daidai-orange shrink-0">
+                                <i class="fa-solid fa-location-dot text-xl w-6 text-center"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg text-gray-800">Location / 住所</h4>
+                                <p class="text-gray-600">4-11-1 Nishi Ichiba, Kiyosu-shi, Aichi, Japan, 452-0941</p>
+                                <p class="text-gray-500 text-sm mt-1">〒452-0941 愛知県清須市西市場4-11-1</p>
+                                <a href="https://share.google/Qc0AAk7vJ2hwGl8Do" rel="noopener noreferrer" target="_blank" class="text-ph-blue hover:underline text-sm font-semibold mt-2 inline-block">Open in Google Maps &rarr;</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="bg-blue-100 p-3 rounded-full text-ph-blue shrink-0">
+                                <i class="fa-regular fa-clock text-xl w-6 text-center"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg text-gray-800">Business Hours / 営業時間</h4>
+                                <table class="text-gray-600 mt-1">
+                                    <tbody>
+                                        <tr><td class="pr-4 font-semibold text-ph-red">Thursday (木)</td><td>Closed / 定休日</td></tr>
+                                        <tr><td class="pr-4 font-semibold">Fri - Wed (金〜水)</td><td>11:00 AM – 9:00 PM</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="bg-red-100 p-3 rounded-full text-ph-red shrink-0">
+                                <i class="fa-solid fa-phone text-xl w-6 text-center"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg text-gray-800">Phone / 電話番号</h4>
+                                <a href="tel:+819058774261" class="text-xl font-bold text-gray-600 hover:text-daidai-orange transition">+81 90-5877-4261</a>
+                                <p class="text-gray-500 text-sm mt-1">Call us for orders, reservations, or inquiries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-1/2">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                        <img src="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(42).png" 
+                             alt="DAIDAI Storefront" 
+                             class="w-full h-80 object-cover">
+                        
+                        <a href="https://share.google/Qc0AAk7vJ2hwGl8Do" rel="noopener noreferrer" target="_blank" class="absolute bottom-0 left-0 w-full bg-daidai-dark/80 backdrop-blur-sm p-4 flex items-center justify-between text-white hover:bg-ph-blue transition cursor-pointer group">
+                            <div>
+                                <span class="block font-bold">Find us on Google Maps</span>
+                                <span class="text-xs text-gray-300">Googleマップで見る</span>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white group-hover:text-ph-blue transition">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="mt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex justify-center mb-6">
+                <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI_New%20Logo_No_bg.png" 
+                alt="DAIDAI Rectangular Logo" 
+                class="w-80 h-auto object-cover">
+              </div>
+              <div class="elfsight-app-0643d35e-f990-45d9-a451-3a518dc15ded" data-elfsight-app-lazy></div>
+            </div>
+          </div>
+        </section>
+
+    <footer class="bg-daidai-dark text-white pt-16 pb-8 border-t-4 border-ph-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+                
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-60 h-auto object-cover">
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Authentic Filipino Restaurant & Store in Japan. Offering home-cooked meals, groceries, and party packages with true Filipino hospitality.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/daidaikitchenette/" rel="noopener noreferrer" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-ph-blue hover:text-white transition duration-300 text-xl text-gray-300">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> About Us</a></li>
+                        <li><a href="#menu" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Menu Highlights</a></li>
+                        <li><a href="#store" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Store Location</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1 text-daidai-orange"></i>
+                            <span>4-11-1 Nishi Ichiba, Kiyosu-shi,<br>Aichi, Japan, 452-0941</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-daidai-orange"></i>
+                            <a href="tel:+819058774261" class="hover:text-white transition">+81 90-5877-4261</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-clock text-daidai-orange"></i>
+                            <span>Fri-Wed: 11AM - 9PM (Thu Closed)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">
+                    &copy; <span id="year"></span> DAIDAI Tindahan, Ihawan & Kitchenette. All rights reserved.
+                </p>
+                <div class="flex items-center gap-2 text-sm text-gray-500">
+                    Made with <i class="fa-solid fa-heart text-ph-red"></i> for the Filipino community in Japan.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+    <script src="script.js"></script>
+</body>
+</html>
