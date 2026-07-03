@@ -1,0 +1,28 @@
+html { scroll-behavior: smooth; }
+.hero-overlay {
+    background: linear-gradient(to right, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.2) 100%);
+}
+@media (max-width: 768px) {
+    .hero-overlay {
+        background: linear-gradient(to bottom, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 60%, rgba(255,255,255,0.4) 100%);
+    }
+}
+.text-shadow { text-shadow: 1px 1px 3px rgba(0,0,0,0.3); }
+.clip-path-slant { clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); }
+
+/* Menu Tabs Styles */
+.tab-btn.active {
+    background-color: #F97316;
+    color: white;
+    border-color: #F97316;
+}
+.menu-category { display: none; }
+.menu-category.active { 
+    display: block; 
+    animation: fadeIn 0.4s ease-out forwards; 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
