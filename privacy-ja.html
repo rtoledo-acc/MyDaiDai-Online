@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー | DAIDAI – Tindahan • Ihawan • Kitchenette</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <meta name="description" content="愛知県清須市にあるDAIDAIでは、本格的なフィリピン料理、キッチン、フィリピン風BBQ（イハワン）、サリサリストア（日用品店）をお楽しみいただけます。フィリピンの温かいおもてなしをぜひご体験ください。">
+    <meta name="keywords" content="フィリピン料理, DAIDAI, 愛知県, 清須市, レストラン, サリサリストア, イハワン, フィリピン食材, ハロハロ">
+    <meta name="author" content="DAIDAI">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mydaidai.online/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mydaidai.online/">
+    <meta property="og:title" content="DAIDAI | 愛知県で味わう本格フィリピン料理">
+    <meta property="og:description" content="愛知県清須市にあるDAIDAIでは、本格的なフィリピン料理、キッチン、フィリピン風BBQ（イハワン）、サリサリストア（日用品店）をお楽しみいただけます。">
+    <meta property="og:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mydaidai.online/">
+    <meta name="twitter:title" content="DAIDAI | 愛知県で味わう本格フィリピン料理">
+    <meta name="twitter:description" content="愛知県清須市にあるDAIDAIでは、本格的なフィリピン料理、キッチン、フィリピン風BBQ（イハワン）、サリサリストア（日用品店）をお楽しみいただけます。">
+    <meta name="twitter:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'Noto Sans JP', 'sans-serif'],
+                        script: ['Dancing Script', 'cursive'],
+                    },
+                    colors: {
+                        ph: {
+                            blue: '#0038A8',
+                            red: '#CE1126',
+                            yellow: '#FCD116',
+                        },
+                        daidai: {
+                            orange: '#F97316',
+                            light: '#FFF7ED',
+                            dark: '#1E293B',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-daidai-dark bg-daidai-light overflow-x-hidden">
+
+    <section id="home">
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="flex items-center gap-2">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-40 h-auto object-cover">
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="index.html" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Home<span class="text-xs font-normal block">ホームページ</span></a>
+                    <a href="/#about" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">About<span class="text-xs font-normal block">当店について</span></a>
+                    <a href="/#menu" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Menu<span class="text-xs font-normal block">メニュー</span></a>
+                    <a href="/#store" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Store<span class="text-xs font-normal block">店舗情報</span></a>
+                    <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="bg-ph-blue hover:bg-blue-800 text-white px-5 py-2 rounded-full font-bold transition shadow-lg flex items-center gap-2">
+                        <i class="fa-brands fa-facebook"></i> Message Us / お問い合わせ
+                    </a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-daidai-orange focus:outline-none p-2">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="index.html" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Home / ホームページ</a>
+                <a href="/#about" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">About / 当店について</a>
+                <a href="/#menu" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Menu / メニュー</a>
+                <a href="/#store" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Store / 店舗情報</a>
+                <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="block px-3 py-3 text-base font-bold text-ph-blue hover:bg-gray-50 rounded-md">
+                    <i class="fa-brands fa-facebook mr-2"></i> Facebook / お問い合わせ
+                </a>
+            </div>
+        </div>
+    </nav>
+    </section>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
+
+            <!-- Page Title -->
+            <div class="mb-10 text-center md:text-left border-b border-gray-100 pb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">プライバシーポリシー</h1>
+                <h2 class="text-2xl font-semibold text-orange-700 mb-6">DAIDAI – Tindahan • Ihawan • Kitchenette</h2>
+                <div class="flex flex-col sm:flex-row sm:gap-3 items-center sm:justify-start justify-center">
+                    <p class="text-brand-600 font-medium bg-brand-50 inline-block px-4 py-1.5 rounded-full text-sm mb-2 sm:mb-0">
+                        制定日：2026年10月27日
+                    </p>
+                    <p class="text-gray-600 font-medium bg-gray-100 inline-block px-4 py-1.5 rounded-full text-sm">
+                        最終更新日：2026年10月27日
+                    </p>
+                </div>
+            </div>
+
+            <div class="prose prose-brand max-w-none text-gray-600 leading-relaxed">
+
+      <!-- Section 1 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第1条（はじめに）</h2>
+        <p class="mb-4">DAIDAI – Tindahan • Ihawan • Kitchenette（以下「当店」といいます。）は、お客様の個人情報を大切にし、その適切な保護と管理に努めています。</p>
+        <p class="mb-4">本プライバシーポリシーは、当店の公式ウェブサイトの閲覧、商品・サービスに関するお問い合わせ、ご注文、ならびに外部サービスを通じた当店とのやり取りにおいて、個人情報をどのように取得、利用、提供、保管および保護するかを定めるものです。</p>
+        <p class="mb-4">当店は、日本の「個人情報の保護に関する法律（個人情報保護法）」その他の適用法令を遵守し、個人情報を適切に取り扱います。</p>
+        <p class="mb-2">本ポリシーは、以下のサービスを通じた当店とのやり取りに適用されます。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>DAIDAI公式ウェブサイト</li>
+          <li>Facebook公式ページ</li>
+          <li>Facebook Messenger</li>
+          <li>Uber Eats（お持ち帰り・配達サービス）</li>
+          <li>Googleビジネスプロフィール</li>
+          <li>Google検索およびGoogleマップ</li>
+          <li>店舗への直接のお問い合わせ、ご予約、ご注文</li>
+        </ul>
+        <p>当店は、法令上お客様の同意が必要な場合には、適切な方法で同意を取得します。</p>
+      </section>
+
+      <!-- Section 2 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第2条（取得する個人情報）</h2>
+        <p class="mb-4">当店は、サービスの提供に必要な範囲で、以下の情報を取得する場合があります。</p>
+        
+        <h3 class="text-xl font-semibold text-orange-700 mt-6 mb-3">2.1 お客様の基本情報</h3>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>氏名またはお客様が指定したお名前</li>
+          <li>電話番号</li>
+          <li>メールアドレス</li>
+          <li>配達先住所（必要な場合）</li>
+          <li>その他、お客様が任意に提供する連絡先情報</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-6 mb-3">2.2 ご注文・お取引に関する情報</h3>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>ご注文いただいた商品や料理</li>
+          <li>注文数量および特別なご要望</li>
+          <li>お持ち帰り・配達に関する情報</li>
+          <li>ご予約内容</li>
+          <li>取引記録</li>
+          <li>お問い合わせやご意見・ご要望</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-6 mb-3">2.3 ウェブサイトの利用情報</h3>
+        <p class="mb-2">当店のウェブサイトを閲覧する際、ウェブサイトの運営事業者や利用中のサービスによって、以下の技術的情報が自動的に取得される場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>IPアドレス</li>
+          <li>ブラウザの種類</li>
+          <li>使用端末およびOSの情報</li>
+          <li>閲覧したページ</li>
+          <li>アクセス日時</li>
+          <li>参照元ウェブサイト</li>
+          <li>Cookie（クッキー）および類似技術に関する情報</li>
+        </ul>
+        <p>これらの情報は、ウェブサイトの運営、セキュリティの確保、保守およびサービス改善など、必要な目的の範囲内で利用します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-6 mb-3">2.4 外部サービスを通じて取得する情報</h3>
+        <p class="mb-2">Facebook、Messenger、Uber Eats、Googleビジネスプロフィールなどを通じて当店をご利用いただいた場合、各サービスから当店に提供される範囲で、お客様の情報を取得することがあります。</p>
+        <p>取得できる情報の範囲は、各サービスの仕様およびお客様のプライバシー設定によって異なります。</p>
+      </section>
+
+      <!-- Section 3 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第3条（個人情報の利用目的）</h2>
+        <p class="mb-4">当店は、取得した個人情報を以下の目的で利用します。</p>
+        <ol class="list-decimal pl-6 mb-4 space-y-2 text-gray-700">
+          <li>お客様からのお問い合わせへの対応</li>
+          <li>ご注文の受付、確認および商品の提供</li>
+          <li>お持ち帰り・配達サービスの手配</li>
+          <li>ご予約および特別なご要望への対応</li>
+          <li>カスタマーサポートの提供</li>
+          <li>口コミ、ご意見、苦情への対応</li>
+          <li>ウェブサイトおよびサービスの改善</li>
+          <li>業務上必要な記録の作成・管理</li>
+          <li>法令上認められる範囲でのキャンペーンや商品情報のご案内</li>
+          <li>不正利用の防止およびセキュリティの確保</li>
+          <li>法令上の義務への対応</li>
+        </ol>
+        <p>当店は、法令で認められる場合を除き、上記の利用目的を超えて個人情報を取り扱う場合には、必要に応じてお客様の同意を取得します。</p>
+      </section>
+
+      <!-- Section 4 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第4条（公式ウェブサイトにおける個人情報の取扱い）</h2>
+        <p class="mb-4">当店の公式ウェブサイトでは、店舗情報、メニュー、商品、営業時間、所在地、キャンペーンおよび注文方法などをご案内しています。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.1 ウェブサイトの閲覧</h3>
+        <p class="mb-4">お客様は、原則として個人情報を直接入力することなく、公開されているウェブサイトの情報を閲覧できます。<br>
+        ただし、ウェブサイトの運営およびセキュリティの確保に必要な技術的情報が、ホスティングサービスなどによって処理される場合があります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.2 お問い合わせフォーム</h3>
+        <p class="mb-4">当店のウェブサイトにお問い合わせフォームや予約フォームが設置されている場合、お客様が入力した情報は、お問い合わせへの回答やご依頼への対応に利用します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.3 オンライン注文</h3>
+        <p class="mb-4">当店のウェブサイトから直接注文できる機能が提供される場合、注文処理に必要な情報を取得することがあります。<br>
+        Uber Eatsなどの外部サービスへ移動して注文する場合には、移動先サービスのプライバシーポリシーも適用されます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.4 外部ウェブサイトへのリンク</h3>
+        <p>当店のウェブサイトには、SNS、注文サービス、地図サービスなどへのリンクが含まれる場合があります。<br>
+        リンク先のサービスにおける個人情報の取扱いについては、各サービスのプライバシーポリシーをご確認ください。</p>
+      </section>
+
+      <!-- Section 5 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第5条（FacebookおよびFacebook Messenger）</h2>
+        <p class="mb-4">当店は、店舗情報、商品案内、キャンペーン、お知らせなどを発信するため、Facebook公式ページを運営しています。<br>
+        また、お客様との連絡手段としてFacebook Messengerを利用しています。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.1 取得する可能性のある情報</h3>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>公開プロフィール情報</li>
+          <li>当店に送信されたメッセージ</li>
+          <li>お問い合わせ内容</li>
+          <li>コメントや口コミ</li>
+          <li>ご注文やご予約のために提供された情報</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.2 利用目的</h3>
+        <p class="mb-4">取得した情報は、お問い合わせへの回答、ご注文への対応、商品情報のご案内、カスタマーサポートなどに利用します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.3 Metaによる個人情報の取扱い</h3>
+        <p class="mb-4">FacebookおよびMessengerは、Metaが提供するサービスです。<br>
+        Metaは、アカウント情報、サービスの利用状況、通信情報などを独自に取得・処理する場合があります。<br>
+        Metaが独自に行う個人情報の取扱いについては、Metaのプライバシーポリシーが適用されます。</p>
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>DAIDAI公式Facebookページ：</strong><br><a href="https://www.facebook.com/daidaikitchenette" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.facebook.com/daidaikitchenette</a></p>
+          <p class="mt-2"><strong>Metaプライバシーポリシー：</strong><br><a href="https://www.facebook.com/privacy/policy/" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.facebook.com/privacy/policy/</a></p>
+        </div>
+      </section>
+
+      <!-- Section 6 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第6条（Uber Eatsによるオンライン注文・配達サービス）</h2>
+        <p class="mb-4">当店は、Uber Eatsを通じて、お持ち帰りおよび配達サービスを提供しています（利用可能な地域・サービスに限ります）。<br>
+        Uber Eatsをご利用の場合、Uberが定めるプライバシーポリシーおよび利用規約が適用されます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.1 Uber Eatsが取り扱う情報</h3>
+        <p class="mb-2">Uber Eatsは、サービスの提供に伴い、以下の情報を取得・処理する場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>お客様のアカウント情報</li>
+          <li>氏名および連絡先</li>
+          <li>注文履歴</li>
+          <li>配達先情報</li>
+          <li>決済情報</li>
+          <li>サービスの利用状況</li>
+          <li>カスタマーサポートに関する情報</li>
+        </ul>
+        <p class="mb-4">これらの情報は、Uberのプライバシー通知に基づいて取り扱われます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.2 当店が受け取る情報</h3>
+        <p class="mb-2">当店は、ご注文の商品を準備し提供するため、Uber Eatsの加盟店向けシステムを通じて、以下の情報を受け取る場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>お客様のお名前または注文識別番号</li>
+          <li>ご注文の商品</li>
+          <li>特別なご要望</li>
+          <li>お持ち帰り・配達の状況</li>
+          <li>取引に関する情報</li>
+          <li>サービス上で提供される連絡先情報</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.3 当店における利用目的</h3>
+        <p class="mb-2">Uber Eatsを通じて取得した情報は、以下の目的に利用します。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>ご注文商品の調理・準備</li>
+          <li>お持ち帰り・配達の調整</li>
+          <li>注文に関する問題への対応</li>
+          <li>お客様からのお問い合わせへの回答</li>
+          <li>必要な取引記録の管理</li>
+        </ul>
+        <p class="mb-4">Uber Eatsを通じて取得した個人情報を、法令やプラットフォームの規約に反する目的で利用することはありません。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.4 決済について</h3>
+        <p class="mb-4">Uber Eats上で行われる決済は、Uberが定める決済手続きに従って処理されます。<br>
+        当店は通常、Uber Eatsの加盟店向けシステムを通じて、お客様のクレジットカード番号などの完全な決済情報を受け取りません。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.5 Uberのプライバシー通知</h3>
+        <p class="mb-2">Uber Eatsにおける個人情報の取扱いについては、以下をご確認ください。</p>
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>Uberプライバシー通知（日本）：</strong><br><a href="https://www.uber.com/legal/ja/document/?name=privacy-notice&country=japan&lang=ja" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.uber.com/legal/ja/document/?name=privacy-notice&country=japan&lang=ja</a></p>
+        </div>
+      </section>
+
+      <!-- Section 7 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第7条（GoogleビジネスプロフィールおよびGoogleマップ）</h2>
+        <p class="mb-2">当店は、お客様が店舗情報を確認しやすいよう、Googleビジネスプロフィールを利用しています。<br>
+        Google検索やGoogleマップには、以下の情報が表示される場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>店舗名</li>
+          <li>店舗所在地</li>
+          <li>電話番号</li>
+          <li>営業時間</li>
+          <li>公式ウェブサイト</li>
+          <li>店舗写真</li>
+          <li>お客様の口コミや評価</li>
+          <li>店舗までの経路案内</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">7.1 Googleサービスを通じた情報の取扱い</h3>
+        <p class="mb-4">お客様がGoogleビジネスプロフィールを閲覧したり、口コミを投稿したり、Googleマップを利用した場合、Googleが独自に個人情報を取得・処理することがあります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">7.2 口コミおよび評価</h3>
+        <p class="mb-4">お客様がGoogleに投稿した口コミ、評価、写真などは、Googleの設定やポリシーに従って公開される場合があります。<br>
+        当店は、サービス改善やお客様への対応を目的として、公開された口コミに返信することがあります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">7.3 Googleマップの利用</h3>
+        <p class="mb-4">当店のウェブサイトには、店舗所在地をご案内するため、Googleマップへのリンクまたは埋め込み地図を掲載する場合があります。<br>
+        Googleマップの利用に伴う情報の取扱いには、Googleのプライバシーポリシーが適用されます。</p>
+        
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>Googleプライバシーポリシー：</strong><br><a href="https://policies.google.com/privacy?hl=ja" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=ja</a></p>
+        </div>
+      </section>
+
+      <!-- Section 8 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第8条（Cookieおよび類似技術）</h2>
+        <p class="mb-2">当店のウェブサイトでは、サイトの機能維持や安全性の確保のため、Cookieおよび類似技術を利用する場合があります。<br>
+        ウェブサイトの設定に応じて、以下の目的で利用されることがあります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>ウェブサイトの基本機能の提供</li>
+          <li>セキュリティの確保</li>
+          <li>利用者の設定の保存</li>
+          <li>ウェブサイトの動作状況の確認</li>
+          <li>導入されている場合のアクセス解析</li>
+          <li>外部サービスとの連携</li>
+        </ul>
+        <p class="mb-4">法令上必要な場合には、適切な情報提供や同意取得を行います。<br>
+        お客様は、ブラウザの設定からCookieの管理や無効化を行うことができます。<br>
+        ただし、一部のCookieを無効にすると、ウェブサイトの機能が正常に動作しない場合があります。</p>
+      </section>
+
+      <!-- Section 9 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第9条（個人情報の第三者提供）</h2>
+        <p class="mb-2">当店は、お客様の個人情報を販売することはありません。<br>
+        以下の場合には、必要な範囲で個人情報を第三者に提供することがあります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>ご注文商品の提供に必要な場合</li>
+          <li>配達・お持ち帰りサービスの調整に必要な場合</li>
+          <li>お客様が希望するサービスの提供に必要な場合</li>
+          <li>ウェブサイトの運営・保守に必要な場合</li>
+          <li>お問い合わせや紛争への対応に必要な場合</li>
+          <li>法令に基づく場合</li>
+        </ul>
+        <p>個人情報の第三者提供にあたっては、適用法令に従い、必要な同意の取得その他の適切な措置を講じます。</p>
+      </section>
+
+      <!-- Section 10 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第10条（個人情報の安全管理）</h2>
+        <p class="mb-2">当店は、個人情報への不正アクセス、漏えい、紛失、改ざんなどを防止するため、合理的かつ適切な安全管理措置を講じます。<br>
+        主な取り組みには、以下が含まれます。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>個人情報へのアクセス権限の制限</li>
+          <li>業務用アカウントの適切な管理</li>
+          <li>必要なセキュリティ対策の実施</li>
+          <li>不必要な情報収集や共有の防止</li>
+          <li>必要に応じた管理体制の見直し</li>
+        </ul>
+        <p>ただし、インターネット上の通信や電子的な情報管理について、完全な安全性を保証することはできません。</p>
+      </section>
+
+      <!-- Section 11 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第11条（個人情報の保存期間）</h2>
+        <p class="mb-4">当店は、個人情報を利用目的の達成に必要な期間、または法令により保存が必要とされる期間に限り保管します。<br>
+        保存期間は、お問い合わせ、ご注文、ご予約、取引記録など、情報の種類や利用目的によって異なります。<br>
+        保存の必要がなくなった個人情報については、法令上の義務を考慮したうえで、適切な方法により削除または廃棄します。</p>
+        <p>Facebook、Messenger、Uber Eats、Googleなどが独自に保管する情報については、それぞれのサービスの保存方針が適用されます。</p>
+      </section>
+
+      <!-- Section 12 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第12条（お客様の権利）</h2>
+        <p class="mb-2">お客様は、適用される日本の個人情報保護法に基づき、一定の条件のもとで、当店が保有する個人情報について以下を請求できる場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>保有個人データの開示</li>
+          <li>不正確な情報の訂正・追加・削除</li>
+          <li>利用停止または消去</li>
+          <li>第三者提供の停止</li>
+          <li>個人情報の取扱いに関するお問い合わせ</li>
+        </ul>
+        <p class="mb-4">ご請求に際しては、ご本人確認をお願いする場合があります。<br>
+        また、法令に定める要件や例外により、ご希望に添えない場合があります。</p>
+        <p>Meta、Uber、Googleが独自に管理する個人情報については、各サービスが提供する窓口や手続きをご利用ください。</p>
+      </section>
+
+      <!-- Section 13 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第13条（広告・キャンペーン情報の配信）</h2>
+        <p class="mb-4">当店は、公式ウェブサイトやFacebookなどを通じて、新商品、キャンペーン、特別メニュー、営業時間などの情報を発信する場合があります。<br>
+        お客様への個別の広告・販促メッセージについては、適用法令に従い、必要な同意その他の適切な根拠に基づいて送信します。</p>
+        <p class="mb-4">お客様は、当店からの販促メッセージの停止を申し出ることができます。<br>
+        Uber Eatsでのご注文、Facebookでの交流、Googleでの口コミ投稿のみをもって、無関係な広告メッセージの送信に同意したものとは取り扱いません。</p>
+      </section>
+
+      <!-- Section 14 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第14条（未成年者の個人情報）</h2>
+        <p class="mb-4">当店は、未成年者から不必要な個人情報を積極的に収集することはありません。<br>
+        保護者の方が、未成年者による個人情報の提供について確認、訂正または削除が必要と判断された場合は、当店までお問い合わせください。</p>
+      </section>
+
+      <!-- Section 15 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第15条（外部サービスのプライバシーポリシー）</h2>
+        <p class="mb-4">当店のウェブサイトでは、以下の外部サービスを利用または案内する場合があります。</p>
+        
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-lg font-bold text-orange-700">Facebook・Facebook Messenger</h3>
+            <p class="mb-1">店舗情報の発信、お客様とのコミュニケーション、お問い合わせへの対応などに利用します。</p>
+            <p>Metaプライバシーポリシー： <a href="https://www.facebook.com/privacy/policy/" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.facebook.com/privacy/policy/</a></p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-orange-700">Uber Eats</h3>
+            <p class="mb-1">商品の注文、お持ち帰り、配達サービスに利用します。</p>
+            <p>Uberプライバシー通知（日本）： <a href="https://www.uber.com/legal/ja/document/?name=privacy-notice&country=japan&lang=ja" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.uber.com/legal/ja/document/?name=privacy-notice&country=japan&lang=ja</a></p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-orange-700">Googleビジネスプロフィール・Googleマップ</h3>
+            <p class="mb-1">店舗情報の検索、所在地の確認、経路案内、口コミの閲覧などに利用します。</p>
+            <p>Googleプライバシーポリシー： <a href="https://policies.google.com/privacy?hl=ja" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=ja</a></p>
+          </div>
+        </div>
+        <p class="mt-6">これらの外部サービスが独自に取得・管理する個人情報については、各サービスのプライバシーポリシーが適用されます。</p>
+      </section>
+
+      <!-- Section 16 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第16条（国外における個人情報の取扱い）</h2>
+        <p class="mb-4">当店が利用する外部サービスの一部では、日本国外のサーバーなどで情報が処理・保管される場合があります。<br>
+        当店が個人情報を外国にある第三者へ提供する場合には、適用される日本の個人情報保護法に従い、必要な情報提供、同意取得その他の措置を講じます。</p>
+      </section>
+
+      <!-- Section 17 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第17条（プライバシーポリシーの変更）</h2>
+        <p class="mb-2">当店は、以下の事情に応じて、本プライバシーポリシーを変更することがあります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>ウェブサイトの機能変更</li>
+          <li>店舗運営方法の変更</li>
+          <li>注文・配達サービスの変更</li>
+          <li>外部サービスとの連携内容の変更</li>
+          <li>関連法令の改正</li>
+          <li>個人情報保護体制の改善</li>
+        </ul>
+        <p>変更後のプライバシーポリシーは、当店の公式ウェブサイトに掲載し、最終更新日を明示します。</p>
+      </section>
+
+      <!-- Section 18 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第18条（お問い合わせ窓口）</h2>
+        <p class="mb-4">本プライバシーポリシーおよび個人情報の取扱いに関するお問い合わせは、以下の窓口までご連絡ください。</p>
+        
+        <div class="bg-orange-50 rounded-xl p-6 border border-orange-100 mb-6">
+          <h3 class="text-xl font-bold text-orange-900 mb-4">DAIDAI – Tindahan • Ihawan • Kitchenette</h3>
+          <div class="space-y-3 text-gray-800">
+            <p><strong>所在地：</strong><br>〒452-0941<br>愛知県清須市西市場4丁目11-1</p>
+            <p><strong>電話番号：</strong><br><a href="tel:+819058774261" class="text-blue-600 hover:underline">+81 90-5877-4261</a></p>
+            <p><strong>公式Facebookページ：</strong><br><a href="https://www.facebook.com/daidaikitchenette" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.facebook.com/daidaikitchenette</a></p>
+            <p><strong>提供サービス：</strong><br>店内飲食・お持ち帰り・Uber Eatsによる注文および配達</p>
+          </div>
+        </div>
+        <p>個人情報に関するお問い合わせやご請求については、上記の公式連絡先にて受け付けます。</p>
+      </section>
+
+      <!-- Closing Commitment -->
+      <section class="text-center pt-8 border-t-2 border-orange-100">
+        <h2 class="text-2xl font-bold text-orange-800 mb-4">お客様のプライバシーを守るために</h2>
+        <p class="text-gray-700 mb-4 max-w-2xl mx-auto">
+          DAIDAIでは、お客様からお寄せいただく信頼を大切にしています。<br><br>
+          公式ウェブサイトの閲覧、店舗でのお買い物、Facebook Messengerでのお問い合わせ、Googleマップでの店舗検索、Uber Eatsでのご注文など、さまざまな場面でお預かりする個人情報を、責任をもって適切に取り扱うよう努めてまいります。
+        </p>
+        <p class="text-xl font-bold text-orange-900 mt-6">DAIDAI – Tindahan • Ihawan • Kitchenette</p>
+        <p class="text-lg font-medium text-orange-600 mt-2 italic">Tara, Kain Tayo sa DAIDAI!</p>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-daidai-dark text-white pt-16 pb-8 border-t-4 border-ph-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+                
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-60 h-auto object-cover">
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Authentic Filipino Restaurant & Store in Japan. Offering home-cooked meals, groceries, and party packages with true Filipino hospitality.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/daidaikitchenette/" rel="noopener noreferrer" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-ph-blue hover:text-white transition duration-300 text-xl text-gray-300">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Home</a></li>
+                        <li><a href="/#about" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> About Us</a></li>
+                        <li><a href="/#menu" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Menu Highlights</a></li>
+                        <li><a href="/#store" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Store Location</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1 text-daidai-orange"></i>
+                            <span>4-11-1 Nishi Ichiba, Kiyosu-shi,<br>Aichi, Japan, 452-0941</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-daidai-orange"></i>
+                            <a href="tel:+819058774261" class="hover:text-white transition">+81 90-5877-4261</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-clock text-daidai-orange"></i>
+                            <span>Fri-Wed: 11AM - 9PM (Thu Closed)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">
+                    &copy; <span id="year"></span> DAIDAI Tindahan, Ihawan & Kitchenette. All rights reserved.
+                </p>
+                <p>
+                    <a href="privacy.html" class="text-gray-500 text-xs">Privacy Policy
+                        <span class="text-decoration: underline">EN</span>
+                    </a>
+                <span>
+                    <a href="privacy-ja.html" class="text-gray-500 text-xs"> / プライバシーポリシー
+                        <span style="text-decoration: underline">日本語</span>
+                    </a>
+                </span>
+                </p>
+                <p>
+                    <a href="terms.html" class="text-gray-500 text-xs">Terms of Service
+                        <span class="text-decoration: underline">EN</span>
+                    </a>
+                <span>
+                    <a href="terms-ja.html" class="text-gray-500 text-xs"> / 利用規約
+                        <span style="text-decoration: underline">日本語</span>
+                    </a>
+                </span>
+                </p>
+                <div class="flex items-center gap-2 text-sm text-gray-500">
+                    Made with <i class="fa-solid fa-heart text-ph-red"></i> for the Filipino community in Japan.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
