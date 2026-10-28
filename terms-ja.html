@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用規約 | DAIDAI – Tindahan • Ihawan • Kitchenette</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <meta name="description" content="愛知県清須市にあるDAIDAIでは、本格的なフィリピン料理、キッチン、フィリピン風BBQ（イハワン）、サリサリストア（日用品店）をお楽しみいただけます。フィリピンの温かいおもてなしをぜひご体験ください。">
+    <meta name="keywords" content="フィリピン料理, DAIDAI, 愛知県, 清須市, レストラン, サリサリストア, イハワン, フィリピン食材, ハロハロ">
+    <meta name="author" content="DAIDAI">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mydaidai.online/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mydaidai.online/">
+    <meta property="og:title" content="DAIDAI | 愛知県で味わう本格フィリピン料理">
+    <meta property="og:description" content="愛知県清須市にあるDAIDAIでは、本格的なフィリピン料理、キッチン、フィリピン風BBQ（イハワン）、サリサリストア（日用品店）をお楽しみいただけます。">
+    <meta property="og:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mydaidai.online/">
+    <meta name="twitter:title" content="DAIDAI | 愛知県で味わう本格フィリピン料理">
+    <meta name="twitter:description" content="愛知県清須市にあるDAIDAIでは、本格的なフィリピン料理、キッチン、フィリピン風BBQ（イハワン）、サリサリストア（日用品店）をお楽しみいただけます。">
+    <meta name="twitter:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'Noto Sans JP', 'sans-serif'],
+                        script: ['Dancing Script', 'cursive'],
+                    },
+                    colors: {
+                        ph: {
+                            blue: '#0038A8',
+                            red: '#CE1126',
+                            yellow: '#FCD116',
+                        },
+                        daidai: {
+                            orange: '#F97316',
+                            light: '#FFF7ED',
+                            dark: '#1E293B',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-daidai-dark bg-daidai-light overflow-x-hidden">
+
+    <section id="home">
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="flex items-center gap-2">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-40 h-auto object-cover">
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="index.html" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Home<span class="text-xs font-normal block">ホームページ</span></a>
+                    <a href="/#about" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">About<span class="text-xs font-normal block">当店について</span></a>
+                    <a href="/#menu" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Menu<span class="text-xs font-normal block">メニュー</span></a>
+                    <a href="/#store" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Store<span class="text-xs font-normal block">店舗情報</span></a>
+                    <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="bg-ph-blue hover:bg-blue-800 text-white px-5 py-2 rounded-full font-bold transition shadow-lg flex items-center gap-2">
+                        <i class="fa-brands fa-facebook"></i> Message Us / お問い合わせ
+                    </a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-daidai-orange focus:outline-none p-2">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="index.html" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Home / ホームページ</a>
+                <a href="/#about" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">About / 当店について</a>
+                <a href="/#menu" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Menu / メニュー</a>
+                <a href="/#store" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Store / 店舗情報</a>
+                <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="block px-3 py-3 text-base font-bold text-ph-blue hover:bg-gray-50 rounded-md">
+                    <i class="fa-brands fa-facebook mr-2"></i> Facebook / お問い合わせ
+                </a>
+            </div>
+        </div>
+    </nav>
+    </section>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
+
+            <!-- Page Title -->
+            <div class="mb-10 text-center md:text-left border-b border-gray-100 pb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">利用規約</h1>
+                <h2 class="text-2xl font-semibold text-orange-700 mb-6">DAIDAI – Tindahan • Ihawan • Kitchenette</h2>
+                <div class="flex flex-col sm:flex-row sm:gap-3 items-center sm:justify-start justify-center">
+                    <p class="text-brand-600 font-medium bg-brand-50 inline-block px-4 py-1.5 rounded-full text-sm mb-2 sm:mb-0">
+                        制定日：2026年10月27日
+                    </p>
+                    <p class="text-gray-600 font-medium bg-gray-100 inline-block px-4 py-1.5 rounded-full text-sm">
+                        最終更新日：2026年10月27日
+                    </p>
+                </div>
+            </div>
+
+            <div class="prose prose-brand max-w-none text-gray-600 leading-relaxed">
+
+<!-- Section 1 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第1条（はじめに）</h2>
+        <p class="mb-4">DAIDAI – Tindahan • Ihawan • Kitchenette（以下「当店」といいます。）の公式ウェブサイトをご利用いただき、ありがとうございます。</p>
+        <p class="mb-4">本利用規約（以下「本規約」といいます。）は、当店の公式ウェブサイトの閲覧および利用、ならびに当店が提供する商品・サービスに関するお問い合わせ、ご注文、ご予約などについて、基本的な利用条件を定めるものです。</p>
+        <p class="mb-4">当店は、愛知県清須市に所在するフィリピン料理レストランおよび小売店舗として、飲食サービス、食品・飲料、フィリピン食材、日用品、その他の関連商品を提供しています。</p>
+        <p class="mb-4">お客様が当店のウェブサイトを利用する場合、本規約が適用されます。ただし、個別の取引について別途条件を提示した場合は、当該条件が優先されることがあります。</p>
+        <p class="mb-4">Uber Eatsなどの外部サービスを利用する場合は、各サービスが定める利用規約も適用されます。</p>
+        <p>本規約に同意いただけない場合は、当店ウェブサイトの利用をお控えください。</p>
+      </section>
+
+      <!-- Section 2 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第2条（提供する商品およびサービス）</h2>
+        <p class="mb-2">当店は、以下の商品およびサービスを提供しています。</p>
+        <ol class="list-decimal pl-6 mb-4 space-y-2 text-gray-700">
+          <li>店内での飲食サービス</li>
+          <li>テイクアウト・お持ち帰り注文</li>
+          <li>対応する外部サービスを通じた配達</li>
+          <li>フィリピン食材および食品の販売</li>
+          <li>食料品、飲料、日用品などの販売</li>
+          <li>化粧品、香水、ボディケア用品などの販売</li>
+          <li>パーティー用料理、オードブル、特別注文</li>
+          <li>商品に関するお問い合わせおよびご予約</li>
+          <li>キャンペーンや特別メニューのご案内</li>
+          <li>その他、当店が提供する関連サービス</li>
+        </ol>
+        <p class="mb-4">商品およびサービスの内容は、在庫状況、営業時間、仕入れ状況、季節、店舗運営上の事情などにより変更される場合があります。</p>
+        <p>当店は、法令および成立済みの契約上の義務に従い、商品・サービスの内容を変更することがあります。</p>
+      </section>
+
+      <!-- Section 3 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第3条（ウェブサイトの利用）</h2>
+        <p class="mb-4">お客様は、当店のウェブサイトを適法かつ適切な目的で利用するものとします。</p>
+        <p class="mb-2">以下の行為は禁止します。</p>
+        <ol class="list-decimal pl-6 mb-4 space-y-2 text-gray-700">
+          <li>法令または公序良俗に反する行為</li>
+          <li>虚偽または不正確な情報の提供</li>
+          <li>不正な注文や予約</li>
+          <li>ウェブサイトの運営を妨害する行為</li>
+          <li>当店または第三者の権利を侵害する行為</li>
+          <li>不正アクセスまたはセキュリティを損なう行為</li>
+          <li>他のお客様や当店スタッフに対する嫌がらせ</li>
+          <li>その他、当店が合理的な理由に基づき不適切と判断する行為</li>
+        </ol>
+        <p>当店は、ウェブサイトの安全性や正常な運営を維持するため、必要な範囲で利用制限などの措置を講じる場合があります。</p>
+      </section>
+
+      <!-- Section 4 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第4条（商品情報および在庫状況）</h2>
+        <p class="mb-4">当店は、ウェブサイトやSNSに掲載する商品情報、価格、写真、説明などについて、正確な情報の提供に努めています。<br>
+        ただし、実際の商品と掲載情報が一部異なる場合があります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.1 飲食メニュー</h3>
+        <p class="mb-2">料理や飲料の提供状況は、以下の事情により変更される場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>食材の入荷状況</li>
+          <li>季節によるメニュー変更</li>
+          <li>当日の調理数量</li>
+          <li>キッチンの運営状況</li>
+          <li>キャンペーンの実施状況</li>
+          <li>お客様からの注文状況</li>
+        </ul>
+        <p class="mb-4">掲載写真はイメージであり、実際の盛り付け、量、包装、外観などが異なる場合があります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.2 食料品および小売商品</h3>
+        <p class="mb-4">食品、化粧品、香水、ボディケア用品、その他の商品は、在庫がなくなり次第、販売を終了する場合があります。<br>
+        数量限定商品については、売り切れとなる場合がありますので、あらかじめご了承ください。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.3 商品表示</h3>
+        <p>商品の原材料、アレルギー情報、使用方法、注意事項、賞味期限・消費期限などについては、商品パッケージに記載された表示をご確認ください。</p>
+      </section>
+
+      <!-- Section 5 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第5条（価格およびお支払い）</h2>
+        <p class="mb-4">当店が表示する価格は、特に記載がない限り、日本円（JPY）で表示します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.1 価格について</h3>
+        <p class="mb-2">商品価格は、以下の事情により異なる場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>キャンペーンや割引</li>
+          <li>在庫状況</li>
+          <li>注文方法</li>
+          <li>外部注文サービスの手数料</li>
+          <li>配達料金</li>
+          <li>適用される税金</li>
+        </ul>
+        <p class="mb-4">ご注文時の最終的なお支払い金額は、注文確定前に表示またはご案内します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.2 価格表示の誤り</h3>
+        <p class="mb-4">明らかな価格表示の誤りが判明した場合、当店は注文確定前に正しい価格をご案内することがあります。<br>
+        すでに成立した取引については、適用法令および取引状況に従って対応します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.3 お支払い方法</h3>
+        <p class="mb-2">利用可能なお支払い方法は、以下の注文方法によって異なります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>店舗でのお支払い</li>
+          <li>当店との直接注文</li>
+          <li>Uber Eatsを通じた注文</li>
+          <li>その他、当店が対応する注文方法</li>
+        </ul>
+        <p>外部サービスを通じた決済には、当該サービスの利用条件が適用されます。</p>
+      </section>
+
+      <!-- Section 6 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第6条（ご注文およびご予約）</h2>
+        <p class="mb-4">お客様は、当店が提供する注文・連絡方法を通じて、商品のお問い合わせ、ご注文、ご予約を行うことができます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.1 注文の確定</h3>
+        <p class="mb-4">お問い合わせや注文依頼の送信のみでは、注文の成立を保証するものではありません。<br>
+        当店が注文を承諾した場合、または利用する注文プラットフォームで注文確定の通知が発行された場合に、当該注文が確定します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.2 お客様による情報提供</h3>
+        <p class="mb-2">お客様は、ご注文に際して以下の情報を正確に提供するものとします。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>商品名および数量</li>
+          <li>お名前</li>
+          <li>連絡先</li>
+          <li>受取方法</li>
+          <li>受取希望日時</li>
+          <li>特別なご要望</li>
+          <li>その他、注文処理に必要な情報</li>
+        </ul>
+        <p class="mb-4">情報に誤りや不足がある場合、注文の処理や受け渡しに遅れが生じることがあります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.3 特別注文・事前予約</h3>
+        <p>パーティー用料理、オードブル、特別メニューなどについては、事前予約が必要となる場合があります。<br>
+        準備期間、お支払い条件、注文変更・キャンセル期限などについては、注文確定前にご案内します。</p>
+      </section>
+
+      <!-- Section 7 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第7条（テイクアウト・お持ち帰り）</h2>
+        <p class="mb-4">テイクアウトをご利用のお客様は、当店と合意した日時および場所で商品をお受け取りください。<br>
+        受取予定時刻は、別途確約した場合を除き、目安となります。</p>
+        <p class="mb-4">調理済み食品の品質および安全性を保つため、できるだけ速やかなお受け取りをお願いいたします。<br>
+        商品受取時には、注文内容をご確認ください。<br>
+        商品不足や注文内容の相違がある場合は、速やかに当店へご連絡ください。</p>
+        <p>予定時刻に受け取れない場合も、できるだけ早くご連絡をお願いいたします。<br>
+        いかなるキャンセルや返金も、注文の準備状況、適用される条件、および消費者保護の要件に依存します。</p>
+      </section>
+
+      <!-- Section 8 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第8条（Uber Eatsによる注文・配達）</h2>
+        <p class="mb-4">当店は、対応地域においてUber Eatsを通じた注文、お持ち帰りおよび配達サービスを提供しています。<br>
+        Uber Eatsをご利用の場合は、Uberが定める利用規約、決済条件、キャンセル・返金ポリシーなどが適用されます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.1 Uber Eatsのサービス</h3>
+        <p class="mb-2">Uber Eatsは、以下の機能やサービスを独自に運営・管理しています。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>注文の受付および確認</li>
+          <li>プラットフォーム上の決済</li>
+          <li>配達の手配</li>
+          <li>配達料金</li>
+          <li>顧客アカウントの管理</li>
+          <li>プラットフォーム上のサポート</li>
+          <li>キャンセル・返金手続き</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.2 当店の責任</h3>
+        <p class="mb-4">当店は、受け付けた注文内容に従い、適用される食品衛生上の要件を守って商品を調理・準備します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.3 配達時間</h3>
+        <p class="mb-4">配達予定時刻は、以下の事情により変更される場合があります。<br>
+        調理状況、配達員の手配状況、天候、交通状況、その他の運営上の事情。<br>
+        Uber Eatsに表示される配達予定時刻については、同サービスの条件が適用されます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.4 注文に関する問題</h3>
+        <p class="mb-4">Uber Eatsで注文した商品について問題が発生した場合は、原則としてUber Eatsのサポート機能をご利用ください。<br>
+        当店は、料理の準備や商品内容に関する問題について、必要に応じて対応します。</p>
+
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>Uber Eats公式サイト：</strong><br><a href="https://www.ubereats.com/" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.ubereats.com/</a></p>
+          <p class="mt-2"><strong>Uber法的情報：</strong><br><a href="https://www.uber.com/legal/" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.uber.com/legal/</a></p>
+        </div>
+      </section>
+
+      <!-- Section 9 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第9条（キャンセル・返品・返金）</h2>
+        <p class="mb-4">当店は、適用される日本の消費者保護法令に従い、注文のキャンセル、返品、交換および返金に対応します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.1 飲食商品のキャンセル</h3>
+        <p class="mb-4">調理済みまたは生鮮・傷みやすい食品については、商品の性質や調理状況により、キャンセルや返金に対応できない場合があります。<br>
+        注文内容の変更やキャンセルをご希望の場合は、できるだけ早く当店へご連絡ください。<br>
+        調理開始後は、ご希望に添えない場合があります。<br>
+        ただし、商品に不備がある場合など、法令に基づくお客様の権利は制限されません。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.2 食料品・小売商品の返品</h3>
+        <p class="mb-4">食料品、化粧品、香水、ボディケア用品などの返品・交換については、購入時にご案内する条件および適用法令に従って対応します。<br>
+        衛生上の理由から、開封済みまたは使用済みの商品について、お客様都合による返品をお受けできない場合があります。<br>
+        ただし、不良品や誤って提供された商品などについては、法令上必要な対応を行います。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.3 不良品・誤配送</h3>
+        <p class="mb-4">商品に破損、不良、注文内容との相違などがある場合は、注文情報とともに速やかに当店へご連絡ください。<br>
+        状況を確認したうえで、法令に従い適切に対応します。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.4 外部サービスでの注文</h3>
+        <p class="mb-4">Uber Eatsを通じた注文のキャンセルや返金については、当該プラットフォームの手続きも適用されます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.5 消費者の法的権利</h3>
+        <p>本規約は、日本の法令に基づきお客様に認められる権利を不当に制限するものではありません。</p>
+      </section>
+
+      <!-- Section 10 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第10条（食品衛生およびアレルギー）</h2>
+        <p class="mb-4">当店は、食品の安全性と衛生管理に配慮しています。<br>
+        ただし、提供する料理には、以下のようなアレルギーの原因となる食材が含まれる場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>小麦</li>
+          <li>大豆</li>
+          <li>卵</li>
+          <li>乳製品</li>
+          <li>魚介類</li>
+          <li>落花生</li>
+          <li>木の実類</li>
+          <li>その他、アレルギー反応を引き起こす可能性のある食材</li>
+        </ul>
+        <p>食物アレルギーや食事制限のあるお客様は、ご注文前に当店へお問い合わせください。<br>
+        共通の調理設備や器具を使用する場合、意図しないアレルゲンの混入が発生する可能性があります。<br>
+        当店が個別に確認・保証した場合を除き、特定のアレルゲンが完全に含まれないことを保証するものではありません。</p>
+      </section>
+
+      <!-- Section 11 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第11条（化粧品・美容用品・日用品）</h2>
+        <p class="mb-4">当店では、化粧品、香水、スキンケア用品、ボディケア用品、その他の小売商品を販売する場合があります。<br>
+        お客様は、商品の使用前にメーカーが提供する以下の情報をご確認ください。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>使用方法</li>
+          <li>成分表示</li>
+          <li>使用上の注意</li>
+          <li>保管方法</li>
+          <li>その他の安全に関する情報</li>
+        </ul>
+        <p class="mb-4">使用感や効果には個人差があります。<br>
+        使用中に肌の異常や刺激などが生じた場合は、使用を中止し、必要に応じて専門家にご相談ください。</p>
+        <p>商品に表示されるブランド名、商標、ロゴなどは、それぞれの権利者に帰属します。<br>
+        当店でブランド商品を販売していることのみをもって、当該ブランドとの公式提携、後援、推奨関係があることを意味するものではありません。</p>
+      </section>
+
+      <!-- Section 12 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第12条（キャンペーンおよび特別企画）</h2>
+        <p class="mb-4">当店は、期間限定メニュー、割引、バリューミール、特別セット、数量限定商品などのキャンペーンを実施する場合があります。</p>
+        <p class="mb-2">キャンペーンには、以下の条件が適用されることがあります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>実施期間</li>
+          <li>在庫数量</li>
+          <li>対象商品</li>
+          <li>利用条件</li>
+          <li>注文数量の制限</li>
+          <li>その他、キャンペーンごとに定める条件</li>
+        </ul>
+        <p class="mb-4">特に記載がない限り、複数のキャンペーンや割引を併用できない場合があります。</p>
+        <p>当店は、法令およびすでに成立した契約上の義務に従い、キャンペーンの内容を変更または終了することがあります。</p>
+      </section>
+
+      <!-- Section 13 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第13条（FacebookおよびFacebook Messenger）</h2>
+        <p class="mb-4">当店は、FacebookおよびMessengerを通じて、店舗情報の発信、お問い合わせへの対応、商品案内などを行っています。<br>
+        これらのサービスをご利用の場合、Metaが定める利用規約および関連ポリシーも適用されます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">13.1 お問い合わせへの対応</h3>
+        <p class="mb-4">当店は、お客様からのお問い合わせに合理的な期間内で対応するよう努めます。<br>
+        ただし、営業時間、混雑状況、スタッフの対応状況などにより、返信までにお時間をいただく場合があります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">13.2 コメントおよび投稿</h3>
+        <p class="mb-4">お客様には、他の利用者や当店スタッフに配慮した適切なコミュニケーションをお願いいたします。<br>
+        迷惑行為、嫌がらせ、虚偽情報、不正な投稿などについては、各プラットフォームの規約および法令に従い、必要な対応を行う場合があります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">13.3 外部サービスとしての運営</h3>
+        <p class="mb-4">FacebookおよびMessengerは、Metaが独立して運営するサービスです。<br>
+        当店は、Metaのシステム上の障害やサービス提供状況を管理するものではありません。</p>
+        
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>DAIDAI公式Facebookページ：</strong><br><a href="https://www.facebook.com/daidaikitchenette" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.facebook.com/daidaikitchenette</a></p>
+          <p class="mt-2"><strong>Meta利用規約：</strong><br><a href="https://www.facebook.com/legal/terms" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.facebook.com/legal/terms</a></p>
+        </div>
+      </section>
+
+      <!-- Section 14 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第14条（GoogleビジネスプロフィールおよびGoogleマップ）</h2>
+        <p class="mb-4">当店は、店舗所在地、営業時間、連絡先、サービス内容などを案内するため、Googleビジネスプロフィールを利用しています。<br>
+        お客様は、Google検索やGoogleマップを通じて、店舗情報、口コミ、経路案内などをご利用いただけます。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">14.1 店舗情報</h3>
+        <p class="mb-4">当店は、正確な店舗情報の提供に努めます。<br>
+        ただし、祝日、特別イベント、臨時休業などにより、営業時間やサービス内容が変更される場合があります。<br>
+        重要な情報については、必要に応じて当店へ直接ご確認ください。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">14.2 口コミ・評価</h3>
+        <p class="mb-4">お客様は、Googleのサービスを通じて、任意で口コミや評価を投稿することができます。<br>
+        当店は、Googleのポリシーに従い、口コミへの返信を行う場合があります。</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">14.3 Googleのサービス</h3>
+        <p class="mb-4">Google検索、Googleマップ、Googleビジネスプロフィールは、Googleが独立して提供するサービスです。<br>
+        Googleが独自に運営するシステムの障害や不具合については、Googleの適用条件が適用されます。</p>
+
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>Google利用規約：</strong><br><a href="https://policies.google.com/terms?hl=ja" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://policies.google.com/terms?hl=ja</a></p>
+        </div>
+      </section>
+
+      <!-- Section 15 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第15条（知的財産権）</h2>
+        <p class="mb-4">当店のウェブサイトに掲載される文章、写真、画像、ロゴ、デザイン、販促資料などのうち、当店が制作したものに関する知的財産権は、当店または正当な権利者に帰属します。</p>
+        <p class="mb-4">法令で認められる場合を除き、権利者の許可なく、これらを無断で複製、転載、改変、配布、商業利用することを禁止します。</p>
+        <p>第三者の商標、ブランド名、著作物などに関する権利は、それぞれの権利者に帰属します。</p>
+      </section>
+
+      <!-- Section 16 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第16条（掲載情報の正確性）</h2>
+        <p class="mb-4">当店は、ウェブサイトに掲載する情報の正確性と最新性を維持するよう努めています。<br>
+        ただし、掲載内容に誤記、記載漏れ、更新の遅れなどが生じる場合があります。<br>
+        当店は、必要に応じて掲載内容を修正・更新することがあります。</p>
+        <p>商品価格、在庫状況、キャンペーン条件などについては、ご購入前に該当する注文方法を通じてご確認ください。</p>
+      </section>
+
+      <!-- Section 17 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第17条（外部ウェブサイトおよびサービス）</h2>
+        <p class="mb-2">当店のウェブサイトには、以下の外部サービスへのリンクや連携機能が含まれる場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Facebook</li>
+          <li>Facebook Messenger</li>
+          <li>Uber Eats</li>
+          <li>Googleビジネスプロフィール</li>
+          <li>Googleマップ</li>
+        </ul>
+        <p class="mb-4">これらのサービスは、それぞれの事業者が独立して運営しています。<br>
+        外部サービスには、各事業者が定める利用規約、プライバシーポリシー、サービス条件が適用されます。<br>
+        当店は、外部ウェブサイトおよびサービスの独立した運用について責任を負いません。</p>
+        <p>ただし、本条は、適用法令に基づく当店の責任を免除するものではありません。</p>
+      </section>
+
+      <!-- Section 18 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第18条（個人情報の取扱い）</h2>
+        <p class="mb-4">当店は、お客様の個人情報を適切に取り扱うよう努めています。<br>
+        個人情報の取得、利用、保管、第三者提供などについては、当店が別途定める「プライバシーポリシー」をご確認ください。</p>
+        <p class="mb-2">プライバシーポリシーには、以下の事項を記載しています。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>取得する個人情報</li>
+          <li>個人情報の利用目的</li>
+          <li>第三者への情報提供</li>
+          <li>安全管理措置</li>
+          <li>お客様の権利</li>
+          <li>外部サービスによる情報の取扱い</li>
+        </ul>
+        <p>詳細については、当ウェブサイトの <a href="privacy-ja.html" class="text-blue-600 hover:underline">プライバシーポリシー</a> をご確認ください。</p>
+      </section>
+
+      <!-- Section 19 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第19条（サービスの停止・中断）</h2>
+        <p class="mb-2">当店は、以下の事情により、ウェブサイトの機能やサービスを一時的に停止または変更する場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>システムの保守・点検</li>
+          <li>技術的な障害</li>
+          <li>セキュリティ上の問題</li>
+          <li>店舗運営上の必要性</li>
+          <li>商品や食材の不足</li>
+          <li>悪天候</li>
+          <li>災害や緊急事態</li>
+          <li>その他、当店の合理的な管理を超える事情</li>
+        </ul>
+        <p class="mb-4">当店は、可能な範囲でサービスへの影響を最小限に抑えるよう努めます。</p>
+        <p>サービス停止などに伴う責任については、適用法令に従って判断されます。</p>
+      </section>
+
+      <!-- Section 20 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第20条（責任の範囲）</h2>
+        <p class="mb-4">当店は、日本の適用法令に基づき、お客様に対して負うべき責任を適切に履行します。</p>
+        <p class="mb-4">当店の合理的な管理を超える事情や、外部サービス事業者が独立して行う行為により生じた損害については、法令で認められる範囲において責任が制限される場合があります。</p>
+        <p class="mb-4">ただし、本規約は、当店の故意または重大な過失による責任、その他法令上免除・制限できない責任を排除するものではありません。</p>
+        <p>また、日本の消費者契約法その他の法令により保障されるお客様の権利を不当に制限するものではありません。</p>
+      </section>
+
+      <!-- Section 21 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第21条（利用規約の変更）</h2>
+        <p class="mb-2">当店は、以下の事情に応じて本規約を変更する場合があります。</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>ウェブサイトの機能変更</li>
+          <li>店舗運営方法の変更</li>
+          <li>商品・サービスの変更</li>
+          <li>注文手続きの変更</li>
+          <li>外部サービスとの連携変更</li>
+          <li>関連法令の改正</li>
+        </ul>
+        <p class="mb-4">変更後の利用規約は、公式ウェブサイトに掲載し、最終更新日を明示します。</p>
+        <p>規約の変更は、適用法令および既存の契約上の義務に従って行います。</p>
+      </section>
+
+      <!-- Section 22 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第22条（準拠法および紛争解決）</h2>
+        <p class="mb-4">本規約は、日本法に準拠し、日本法に従って解釈されます。</p>
+        <p class="mb-4">お客様と当店との間で問題や紛争が発生した場合、まずは誠意をもって協議し、円満な解決に努めます。<br>
+        協議によって解決できない場合には、日本の適用法令に基づき管轄権を有する裁判所において解決するものとします。</p>
+        <p>本規約は、法令上保障される消費者の権利や裁判管轄に関する保護を制限するものではありません。</p>
+      </section>
+
+      <!-- Section 23 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">第23条（お問い合わせ先）</h2>
+        <p class="mb-4">本規約、商品、ご注文、サービスに関するお問い合わせは、以下までご連絡ください。</p>
+        
+        <div class="bg-orange-50 rounded-xl p-6 border border-orange-100 mb-6">
+          <h3 class="text-xl font-bold text-orange-900 mb-4">DAIDAI – Tindahan • Ihawan • Kitchenette</h3>
+          <div class="space-y-3 text-gray-800">
+            <p><strong>所在地：</strong><br>〒452-0941<br>愛知県清須市西市場4丁目11-1</p>
+            <p><strong>電話番号：</strong><br><a href="tel:+819058774261" class="text-blue-600 hover:underline">+81 90-5877-4261</a></p>
+            <p><strong>公式Facebookページ：</strong><br><a href="https://www.facebook.com/daidaikitchenette" class="text-blue-600 hover:underline break-words" target="_blank" rel="noopener noreferrer">https://www.facebook.com/daidaikitchenette</a></p>
+            <p><strong>提供サービス：</strong><br>店内飲食・テイクアウト・Uber Eatsによる注文および配達</p>
+            <p><strong>通常営業時間：</strong><br>午前11時～午後9時<br>定休日：毎週木曜日</p>
+            <p class="text-sm italic mt-2">祝日、特別イベント、その他の事情により、営業時間や営業日が変更される場合があります。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Closing Commitment -->
+      <section class="text-center pt-8 border-t-2 border-orange-100">
+        <h2 class="text-2xl font-bold text-orange-800 mb-4">お客様へのお約束</h2>
+        <p class="text-gray-700 mb-4 max-w-2xl mx-auto">
+          DAIDAIでは、フィリピン料理や厳選した商品を通じて、お客様に安心してご利用いただけるサービスの提供を目指しています。<br><br>
+          私たちは、すべてのお客様とのお取引において、誠実さ、透明性、公平性、そして相互の尊重を大切にしています。分かりやすい利用条件と適切な店舗運営を通じて、皆様に信頼していただけるお店づくりに努めてまいります。
+        </p>
+        <p class="text-xl font-bold text-orange-900 mt-6">DAIDAI – Tindahan • Ihawan • Kitchenette</p>
+        <p class="text-lg font-medium text-orange-600 mt-2 italic">Tara, Kain Tayo sa DAIDAI!</p>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-daidai-dark text-white pt-16 pb-8 border-t-4 border-ph-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+                
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-60 h-auto object-cover">
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Authentic Filipino Restaurant & Store in Japan. Offering home-cooked meals, groceries, and party packages with true Filipino hospitality.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/daidaikitchenette/" rel="noopener noreferrer" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-ph-blue hover:text-white transition duration-300 text-xl text-gray-300">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Home</a></li>
+                        <li><a href="/#about" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> About Us</a></li>
+                        <li><a href="/#menu" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Menu Highlights</a></li>
+                        <li><a href="/#store" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Store Location</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1 text-daidai-orange"></i>
+                            <span>4-11-1 Nishi Ichiba, Kiyosu-shi,<br>Aichi, Japan, 452-0941</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-daidai-orange"></i>
+                            <a href="tel:+819058774261" class="hover:text-white transition">+81 90-5877-4261</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-clock text-daidai-orange"></i>
+                            <span>Fri-Wed: 11AM - 9PM (Thu Closed)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">
+                    &copy; <span id="year"></span> DAIDAI Tindahan, Ihawan & Kitchenette. All rights reserved.
+                </p>
+                <p>
+                    <a href="privacy-en.html" class="text-gray-500 text-xs">Privacy Policy
+                        <span class="text-decoration: underline">EN</span>
+                    </a>
+                <span>
+                    <a href="privacy-ja.html" class="text-gray-500 text-xs"> / プライバシーポリシー
+                        <span style="text-decoration: underline">日本語</span>
+                    </a>
+                </span>
+                </p>
+                <p>
+                    <a href="terms-en.html" class="text-gray-500 text-xs">Terms of Service
+                        <span class="text-decoration: underline">EN</span>
+                    </a>
+                <span>
+                    <a href="terms-ja.html" class="text-gray-500 text-xs"> / 利用規約
+                        <span style="text-decoration: underline">日本語</span>
+                    </a>
+                </span>
+                </p>
+                <div class="flex items-center gap-2 text-sm text-gray-500">
+                    Made with <i class="fa-solid fa-heart text-ph-red"></i> for the Filipino community in Japan.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
