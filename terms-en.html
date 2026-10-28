@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | DAIDAI – Tindahan • Ihawan • Kitchenette</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan. Taste the warmth of Filipino hospitality.">
+    <meta name="keywords" content="Filipino food, Philippine cuisine, DAIDAI, Aichi, Kiyosu-shi, Japan restaurant, sari-sari store, ihawan, Filipino grocery, halo-halo">
+    <meta name="author" content="DAIDAI">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mydaidai.online/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mydaidai.online/">
+    <meta property="og:title" content="DAIDAI | Authentic Filipino Cuisine in Aichi, Japan">
+    <meta property="og:description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan.">
+    <meta property="og:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mydaidai.online/">
+    <meta name="twitter:title" content="DAIDAI | Authentic Filipino Cuisine in Aichi, Japan">
+    <meta name="twitter:description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan.">
+    <meta name="twitter:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'Noto Sans JP', 'sans-serif'],
+                        script: ['Dancing Script', 'cursive'],
+                    },
+                    colors: {
+                        ph: {
+                            blue: '#0038A8',
+                            red: '#CE1126',
+                            yellow: '#FCD116',
+                        },
+                        daidai: {
+                            orange: '#F97316',
+                            light: '#FFF7ED',
+                            dark: '#1E293B',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-daidai-dark bg-daidai-light overflow-x-hidden">
+
+    <section id="home">
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="flex items-center gap-2">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-40 h-auto object-cover">
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="index.html" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Home<span class="text-xs font-normal block">ホームページ</span></a>
+                    <a href="/#about" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">About<span class="text-xs font-normal block">当店について</span></a>
+                    <a href="/#menu" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Menu<span class="text-xs font-normal block">メニュー</span></a>
+                    <a href="/#store" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Store<span class="text-xs font-normal block">店舗情報</span></a>
+                    <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="bg-ph-blue hover:bg-blue-800 text-white px-5 py-2 rounded-full font-bold transition shadow-lg flex items-center gap-2">
+                        <i class="fa-brands fa-facebook"></i> Message Us / お問い合わせ
+                    </a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-daidai-orange focus:outline-none p-2">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="index.html" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Home / ホームページ</a>
+                <a href="/#about" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">About / 当店について</a>
+                <a href="/#menu" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Menu / メニュー</a>
+                <a href="/#store" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Store / 店舗情報</a>
+                <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="block px-3 py-3 text-base font-bold text-ph-blue hover:bg-gray-50 rounded-md">
+                    <i class="fa-brands fa-facebook mr-2"></i> Facebook / お問い合わせ
+                </a>
+            </div>
+        </div>
+    </nav>
+    </section>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
+            
+            <!-- Page Title -->
+            <div class="mb-10 text-center md:text-left border-b border-gray-100 pb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Terms of Service</h1>
+                <div class="flex flex-col sm:flex-row sm:gap-3 items-center sm:justify-start justify-center">
+                    <p class="text-brand-600 font-medium bg-brand-50 inline-block px-4 py-1.5 rounded-full text-sm mb-2 sm:mb-0">
+                        Effective Date: October 27, 2026
+                    </p>
+                    <p class="text-gray-600 font-medium bg-gray-100 inline-block px-4 py-1.5 rounded-full text-sm">
+                        Last Updated: October 27, 2026
+                    </p>
+                </div>
+            </div>
+
+            <div class="prose prose-brand max-w-none text-gray-600 leading-relaxed">
+                
+<!-- Section 1 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">1. Introduction</h2>
+        <p class="mb-4">Welcome to DAIDAI – Tindahan • Ihawan • Kitchenette (“DAIDAI,” “we,” “us,” or “our”).</p>
+        <p class="mb-4">These Terms of Service (“Terms”) govern your access to and use of our official website, as well as your interactions with our business through our website and supported communication and ordering channels.</p>
+        <p class="mb-4">DAIDAI is a Filipino restaurant and retail store located in Kiyosu-shi, Aichi, Japan, offering Filipino food, beverages, grocery products, selected retail merchandise, and related services.</p>
+        <p class="mb-4">By accessing or using our website, you agree to comply with these Terms to the extent permitted by applicable law. Separate terms may apply when you place an order, make a reservation, or use services provided by third-party platforms.</p>
+        <p>If you do not agree with these Terms, please discontinue using our website.</p>
+      </section>
+
+      <!-- Section 2 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">2. Scope of Services</h2>
+        <p class="mb-2">DAIDAI provides information and services relating to:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Restaurant dining and food services.</li>
+          <li>Takeout and pickup orders.</li>
+          <li>Food delivery through supported platforms.</li>
+          <li>Filipino grocery and retail products.</li>
+          <li>Beauty, personal care, and other merchandise.</li>
+          <li>Food trays, party packages, and special orders.</li>
+          <li>Product inquiries and reservations.</li>
+          <li>Promotional offers and announcements.</li>
+          <li>Customer service and business communications.</li>
+        </ul>
+        <p class="mb-4">The availability of products and services may vary depending on operating hours, inventory, seasonal offerings, and other operational circumstances.</p>
+        <p>We reserve the right to modify our products, services, menus, and offerings at any time, subject to applicable consumer protection laws and existing contractual obligations.</p>
+      </section>
+
+      <!-- Section 3 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">3. Website Use</h2>
+        <p class="mb-4">Our website is intended to provide customers with information about DAIDAI, its products, services, promotions, and ordering options.</p>
+        <p class="mb-2">By using our website, you agree to:</p>
+        <ol class="list-decimal pl-6 mb-4 space-y-2 text-gray-700">
+          <li>Use the website only for lawful purposes.</li>
+          <li>Provide accurate information when submitting inquiries or orders.</li>
+          <li>Avoid interfering with website functionality or security.</li>
+          <li>Refrain from unauthorized access to restricted systems.</li>
+          <li>Respect the intellectual property rights of DAIDAI and third parties.</li>
+          <li>Avoid submitting fraudulent, misleading, or abusive communications.</li>
+        </ol>
+        <p>We may restrict access to website features when reasonably necessary to protect our business, customers, or website security.</p>
+      </section>
+
+      <!-- Section 4 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">4. Product Information and Availability</h2>
+        <p class="mb-4">DAIDAI makes reasonable efforts to provide accurate descriptions, images, prices, and availability information. However, product details may change without immediate updates to our website or social media pages.</p>
+        
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.1 Food and Beverage Products</h3>
+        <p class="mb-2">Food items may vary depending on:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Ingredient availability.</li>
+          <li>Seasonal menu changes.</li>
+          <li>Daily preparation quantities.</li>
+          <li>Kitchen operating conditions.</li>
+          <li>Special promotions.</li>
+          <li>Customer demand.</li>
+        </ul>
+        <p class="mb-4">Photos and promotional images are provided for reference. Actual presentation, portion sizes, packaging, and appearance may vary.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.2 Grocery and Retail Products</h3>
+        <p class="mb-4">Grocery items, beauty products, fragrances, personal care products, and other merchandise are subject to stock availability. Certain products may be offered in limited quantities. Unless otherwise stated, products are available only while supplies last.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">4.3 Product Accuracy</h3>
+        <p>We make reasonable efforts to provide accurate product information. Where applicable, customers should refer to the manufacturer's original packaging for ingredients, allergens, usage instructions, warnings, expiration dates, and other product-specific information.</p>
+      </section>
+
+      <!-- Section 5 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">5. Pricing and Payment</h2>
+        <p class="mb-4">Prices displayed on our website, menus, promotional materials, or social media pages are generally expressed in Japanese Yen (JPY), unless otherwise indicated.</p>
+        
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.1 Pricing Information</h3>
+        <p class="mb-2">We aim to maintain accurate and updated pricing information. However, prices may differ depending on:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Promotional offers.</li>
+          <li>Product availability.</li>
+          <li>Ordering methods.</li>
+          <li>Third-party platform fees.</li>
+          <li>Delivery charges.</li>
+          <li>Applicable taxes.</li>
+        </ul>
+        <p class="mb-4">The total amount payable will be communicated or displayed before an order is confirmed.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.2 Pricing Errors</h3>
+        <p class="mb-4">If an obvious pricing or listing error is discovered, we may contact the customer to clarify the correct price before accepting or fulfilling the order. Where an order has already been accepted, any correction, cancellation, or refund will be handled in accordance with applicable Japanese law and the circumstances of the transaction.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">5.3 Payment Methods</h3>
+        <p class="mb-2">Accepted payment methods may vary depending on whether purchases are made:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>In-store.</li>
+          <li>Through direct arrangements with DAIDAI.</li>
+          <li>Through Uber Eats.</li>
+          <li>Through other supported payment or ordering channels.</li>
+        </ul>
+        <p>Payments made through third-party platforms are subject to their applicable payment terms and procedures.</p>
+      </section>
+
+      <!-- Section 6 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">6. Orders and Reservations</h2>
+        <p class="mb-4">Customers may inquire about products or place orders through available DAIDAI communication and ordering channels. These may include direct contact, Facebook Messenger, or Uber Eats.</p>
+        
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.1 Order Confirmation</h3>
+        <p class="mb-4">Submitting an inquiry or order request does not automatically guarantee acceptance or availability. An order is considered confirmed when DAIDAI communicates its acceptance or when confirmation is issued through the applicable ordering platform.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.2 Customer Responsibilities</h3>
+        <p class="mb-2">Customers are responsible for providing accurate information, including:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Ordered items and quantities.</li>
+          <li>Contact information.</li>
+          <li>Requested pickup or delivery arrangements.</li>
+          <li>Special instructions.</li>
+          <li>Other details necessary to fulfill the order.</li>
+        </ul>
+        <p class="mb-4">Incorrect or incomplete information may result in delays or difficulties fulfilling an order.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">6.3 Special Orders and Preorders</h3>
+        <p>Certain products, including party trays, food packages, and made-to-order items, may require advance notice. Any applicable preparation times, payment requirements, deadlines, or cancellation conditions will be communicated before the order is confirmed.</p>
+      </section>
+
+      <!-- Section 7 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">7. Pickup and Takeout Orders</h2>
+        <p class="mb-4">Customers selecting pickup or takeout services are responsible for collecting their orders at the agreed time and location. Pickup times are estimates unless otherwise confirmed.</p>
+        <p class="mb-4">We recommend collecting prepared food promptly to maintain its quality and safety. Customers should verify their orders upon collection and notify DAIDAI promptly if there are missing or incorrect items.</p>
+        <p>If an order cannot be collected as arranged, customers should contact us as soon as possible. Any cancellation or refund will depend on the order's preparation status, applicable terms, and consumer protection requirements.</p>
+      </section>
+
+      <!-- Section 8 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">8. Uber Eats Ordering and Delivery</h2>
+        <p class="mb-4">DAIDAI offers pickup and delivery services through Uber Eats where available. When customers place orders through Uber Eats, they are also subject to Uber's applicable terms, conditions, and policies.</p>
+        
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.1 Third-Party Ordering</h3>
+        <p class="mb-2">Uber Eats independently operates its ordering platform and manages certain aspects of the customer transaction. These may include:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Order submission and confirmation.</li>
+          <li>Platform payments.</li>
+          <li>Delivery arrangements.</li>
+          <li>Delivery fees.</li>
+          <li>Customer account management.</li>
+          <li>Platform-based support.</li>
+          <li>Refund and cancellation procedures.</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.2 Restaurant Responsibilities</h3>
+        <p class="mb-4">DAIDAI is responsible for preparing and providing ordered products in accordance with applicable food safety requirements and the accepted order details.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.3 Delivery Services</h3>
+        <p class="mb-4">Delivery times may vary depending on factors such as order preparation, courier availability, weather, traffic, and other circumstances. Delivery estimates displayed by Uber Eats are subject to the platform's procedures and conditions.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.4 Order Issues</h3>
+        <p class="mb-4">Customers experiencing issues with orders placed through Uber Eats should use the platform's designated support procedures. DAIDAI may assist with restaurant-related concerns where appropriate.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">8.5 Uber Eats Terms</h3>
+        <p class="mb-2">Customers are encouraged to review Uber's applicable terms before placing an order.</p>
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>Uber Eats:</strong> <a href="https://www.ubereats.com/" class="text-blue-600 hover:underline break-words" target="_blank">https://www.ubereats.com/</a></p>
+          <p class="mt-2"><strong>Uber Legal Information:</strong> <a href="https://www.uber.com/legal/" class="text-blue-600 hover:underline break-words" target="_blank">https://www.uber.com/legal/</a></p>
+        </div>
+      </section>
+
+      <!-- Section 9 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">9. Cancellations, Returns, and Refunds</h2>
+        <p class="mb-4">DAIDAI aims to address order concerns fairly and in accordance with applicable Japanese consumer protection laws.</p>
+        
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.1 Food Orders</h3>
+        <p class="mb-4">Because food products may be freshly prepared or perishable, cancellation and refund eligibility may depend on the preparation status, nature of the product, and circumstances of the request. Customers should contact DAIDAI promptly if they wish to cancel or modify a direct order. Cancellation requests cannot always be accommodated after food preparation has begun. This does not limit any rights customers may have under applicable law, including rights relating to defective, incorrect, or nonconforming products.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.2 Grocery and Retail Products</h3>
+        <p class="mb-4">Returns or exchanges for grocery, beauty, personal care, and other retail products are subject to the applicable conditions communicated at the time of purchase and mandatory consumer protection requirements. For hygiene and safety reasons, certain opened or used products may not be eligible for discretionary returns. However, this does not exclude remedies required by law for defective or incorrectly supplied products.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.3 Damaged or Incorrect Products</h3>
+        <p class="mb-4">Customers who receive damaged, defective, or incorrect products should contact DAIDAI promptly and provide relevant order information. We will review the concern and determine an appropriate resolution in accordance with applicable law.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.4 Third-Party Orders</h3>
+        <p class="mb-4">Refunds and cancellations for Uber Eats transactions are also governed by the platform's applicable procedures. Customers may need to submit their requests directly through Uber Eats.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">9.5 Statutory Rights</h3>
+        <p>Nothing in these Terms excludes or limits consumer rights or remedies that cannot legally be excluded under Japanese law.</p>
+      </section>
+
+      <!-- Section 10 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">10. Food Safety and Allergens</h2>
+        <p class="mb-4">DAIDAI takes food preparation and handling responsibilities seriously. However, customers should be aware that food products may contain ingredients associated with allergies or dietary restrictions.</p>
+        <p class="mb-2">These may include, but are not limited to:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Wheat and gluten-containing ingredients.</li>
+          <li>Soy.</li>
+          <li>Eggs.</li>
+          <li>Milk and dairy products.</li>
+          <li>Fish and shellfish.</li>
+          <li>Peanuts and tree nuts.</li>
+          <li>Other ingredients that may cause allergic reactions.</li>
+        </ul>
+        <p>Customers with food allergies, dietary restrictions, or ingredient concerns should contact DAIDAI before placing an order. Although we take reasonable precautions, cross-contact between ingredients may occur in shared food preparation environments. We cannot guarantee that every product is completely free from a particular allergen unless expressly confirmed.</p>
+      </section>
+
+      <!-- Section 11 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">11. Retail, Beauty, and Personal Care Products</h2>
+        <p class="mb-4">DAIDAI may offer selected beauty, fragrance, skincare, personal care, and other retail products. Customers are responsible for reviewing the manufacturer's instructions, ingredients, warnings, and recommended usage. Individual results and reactions may vary.</p>
+        <p class="mb-4">Customers should discontinue using a product if irritation or an adverse reaction occurs and seek appropriate professional advice when necessary.</p>
+        <p>Product names, trademarks, and brand identifiers belong to their respective owners. Unless expressly stated, the availability of branded merchandise at DAIDAI does not imply sponsorship, endorsement, or an official partnership with the brand owner.</p>
+      </section>
+
+      <!-- Section 12 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">12. Promotions and Special Offers</h2>
+        <p class="mb-4">DAIDAI may offer promotional discounts, value meals, limited-time products, special packages, and other offers.</p>
+        <p class="mb-2">Promotions may be subject to:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Specific availability dates.</li>
+          <li>Limited stock.</li>
+          <li>Eligibility requirements.</li>
+          <li>Participating products.</li>
+          <li>Order limitations.</li>
+          <li>Additional terms disclosed with the promotion.</li>
+        </ul>
+        <p class="mb-4">Promotional offers cannot necessarily be combined unless expressly stated.</p>
+        <p>We may modify or discontinue promotions prospectively, subject to applicable law and commitments already made to customers.</p>
+      </section>
+
+      <!-- Section 13 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">13. Facebook and Facebook Messenger</h2>
+        <p class="mb-4">DAIDAI uses Facebook and Messenger to communicate with customers, share announcements, and respond to inquiries. Customers who interact with our Facebook Page or Messenger are also subject to Meta's applicable terms and policies.</p>
+        
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">13.1 Customer Communications</h3>
+        <p class="mb-4">We aim to respond to inquiries within a reasonable period. However, response times may vary depending on operating hours, customer demand, and staff availability.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">13.2 Public Comments</h3>
+        <p class="mb-4">Customers are expected to communicate respectfully. We may moderate or report comments containing spam, harassment, fraudulent information, or other content that violates applicable platform policies or laws.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">13.3 Third-Party Platform Responsibility</h3>
+        <p class="mb-4">Facebook and Messenger are operated independently by Meta. DAIDAI does not control the availability, security, or functionality of Meta's services.</p>
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>Official Facebook Page:</strong> <a href="https://www.facebook.com/daidaikitchenette" class="text-blue-600 hover:underline break-words" target="_blank">https://www.facebook.com/daidaikitchenette</a></p>
+          <p class="mt-2"><strong>Meta Terms of Service:</strong> <a href="https://www.facebook.com/legal/terms" class="text-blue-600 hover:underline break-words" target="_blank">https://www.facebook.com/legal/terms</a></p>
+        </div>
+      </section>
+
+      <!-- Section 14 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">14. Google Business Profile and Google Maps</h2>
+        <p class="mb-4">DAIDAI maintains a Google Business Profile to provide customers with information about our location, operating hours, contact details, and services. Customers may also access directions, reviews, and other information through Google Search and Google Maps.</p>
+        
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">14.1 Business Information</h3>
+        <p class="mb-4">We make reasonable efforts to maintain accurate business information. However, customers should verify important details directly with DAIDAI when necessary, particularly during holidays, special events, or unexpected closures.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">14.2 Reviews and Ratings</h3>
+        <p class="mb-4">Customers may voluntarily submit reviews and ratings through Google. We welcome genuine customer feedback and may respond to reviews in accordance with Google's applicable policies.</p>
+
+        <h3 class="text-xl font-semibold text-orange-700 mt-4 mb-2">14.3 Google Services</h3>
+        <p class="mb-4">Google independently operates its search, maps, and business listing services. DAIDAI is not responsible for service interruptions or inaccuracies arising solely from Google's independent systems.</p>
+        <div class="bg-orange-50 p-4 rounded-lg">
+          <p><strong>Google Terms of Service:</strong> <a href="https://policies.google.com/terms" class="text-blue-600 hover:underline break-words" target="_blank">https://policies.google.com/terms</a></p>
+        </div>
+      </section>
+
+      <!-- Section 15 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">15. Intellectual Property</h2>
+        <p class="mb-4">Unless otherwise indicated, original content created by DAIDAI for its website, including text, photographs, graphics, logos, and promotional materials, is owned by DAIDAI or used with appropriate authorization.</p>
+        <p class="mb-4">Customers and website visitors may not reproduce, distribute, modify, or commercially exploit protected content without permission, except where permitted by applicable law.</p>
+        <p>Third-party trademarks, brand names, and copyrighted materials remain the property of their respective owners.</p>
+      </section>
+
+      <!-- Section 16 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">16. Website Content and Accuracy</h2>
+        <p class="mb-4">We make reasonable efforts to ensure that information published on our website is accurate and current. However, website content may occasionally contain errors, omissions, or outdated information. We may update website content as necessary.</p>
+        <p>Information published on our website is intended for general informational and commercial purposes. Product availability, prices, and promotional conditions should be confirmed through the relevant ordering channel before purchase.</p>
+      </section>
+
+      <!-- Section 17 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">17. Third-Party Websites and Services</h2>
+        <p class="mb-2">Our website may contain links or integrations involving external platforms, including:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Facebook.</li>
+          <li>Facebook Messenger.</li>
+          <li>Uber Eats.</li>
+          <li>Google Business Profile.</li>
+          <li>Google Maps.</li>
+        </ul>
+        <p class="mb-4">These platforms are independently operated and maintain their own terms, privacy policies, and service conditions. DAIDAI is not responsible for the independent operation of third-party websites or services.</p>
+        <p>However, nothing in this section excludes responsibilities that DAIDAI may have under applicable law.</p>
+      </section>
+
+      <!-- Section 18 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">18. Privacy and Personal Information</h2>
+        <p class="mb-4">Your privacy is important to DAIDAI. Personal information collected through our website and business operations is handled in accordance with our separate Privacy Policy.</p>
+        <p class="mb-2">Our Privacy Policy explains:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>What personal information we collect.</li>
+          <li>How information is used.</li>
+          <li>When information may be shared.</li>
+          <li>How information is protected.</li>
+          <li>Your applicable privacy rights.</li>
+          <li>How third-party services process personal information.</li>
+        </ul>
+        <p>Please review our website's <a href="privacy.html" class="text-blue-600 hover:underline">Privacy Policy</a> for further information.</p>
+      </section>
+
+      <!-- Section 19 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">19. Service Availability and Interruptions</h2>
+        <p class="mb-2">DAIDAI may temporarily suspend or modify website features or business services due to:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Scheduled maintenance.</li>
+          <li>Technical difficulties.</li>
+          <li>Security concerns.</li>
+          <li>Operational requirements.</li>
+          <li>Supply shortages.</li>
+          <li>Severe weather.</li>
+          <li>Emerencies.</li>
+          <li>Circumstances beyond our reasonable control.</li>
+        </ul>
+        <p class="mb-4">We will make reasonable efforts to minimize disruption when practicable.</p>
+        <p>Any liability arising from interruptions will be determined in accordance with applicable law.</p>
+      </section>
+
+      <!-- Section 20 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">20. Limitation of Liability</h2>
+        <p class="mb-4">DAIDAI is responsible for its obligations to customers as required by applicable Japanese law. To the extent permitted by law, we are not responsible for losses arising solely from circumstances outside our reasonable control or from the independent acts of third-party service providers.</p>
+        <p class="mb-4">Nothing in these Terms excludes or limits liability for intentional misconduct, gross negligence, or any other liability that cannot lawfully be excluded or limited.</p>
+        <p>In particular, these Terms do not restrict mandatory consumer rights under Japan's Consumer Contract Act or other applicable laws.</p>
+      </section>
+
+      <!-- Section 21 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">21. Changes to These Terms</h2>
+        <p class="mb-2">DAIDAI may update these Terms to reflect changes in:</p>
+        <ul class="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+          <li>Website functionality.</li>
+          <li>Business operations.</li>
+          <li>Products and services.</li>
+          <li>Ordering procedures.</li>
+          <li>Third-party integrations.</li>
+          <li>Applicable legal requirements.</li>
+        </ul>
+        <p class="mb-4">Revised Terms will be published on our website with an updated effective date.</p>
+        <p>Changes will apply prospectively, subject to applicable law and any contractual obligations already established.</p>
+      </section>
+
+      <!-- Section 22 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">22. Governing Law and Dispute Resolution</h2>
+        <p class="mb-4">These Terms are governed by the laws of Japan.</p>
+        <p class="mb-4">In the event of a dispute, customers are encouraged to contact DAIDAI first so that we may attempt to resolve the matter through communication. If a dispute cannot be resolved, it may be referred to a court having jurisdiction under applicable Japanese law.</p>
+        <p>Nothing in these Terms restricts mandatory consumer rights or legally applicable jurisdictional protections.</p>
+      </section>
+
+      <!-- Section 23 -->
+      <section>
+        <h2 class="text-2xl font-bold text-orange-800 border-b-2 border-orange-200 pb-2 mb-4">23. Contact Information</h2>
+        <p class="mb-4">For questions about these Terms, products, orders, or customer service, please contact:</p>
+        
+        <div class="bg-orange-50 rounded-xl p-6 border border-orange-100 mb-6">
+          <h3 class="text-xl font-bold text-orange-900 mb-4">DAIDAI – Tindahan • Ihawan • Kitchenette</h3>
+          <div class="space-y-3 text-gray-800">
+            <p><strong>Business Address:</strong><br>4-11-1 Nishi Ichiba, Kiyosu-shi, Aichi, Japan</p>
+            <p><strong>Contact Number:</strong><br><a href="tel:+819058774261" class="text-blue-600 hover:underline">+81 90-5877-4261</a></p>
+            <p><strong>Facebook Page:</strong><br><a href="https://www.facebook.com/daidaikitchenette" class="text-blue-600 hover:underline break-words" target="_blank">https://www.facebook.com/daidaikitchenette</a></p>
+            <p><strong>Business Services:</strong><br>Dine-In • Takeout • Uber Eats Pickup & Delivery</p>
+            <p><strong>Regular Business Hours:</strong><br>11:00 AM – 9:00 PM<br>Closed every Thursday.</p>
+            <p class="text-sm italic mt-2">Business hours may change during holidays, special events, or unexpected circumstances.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Closing Commitment -->
+      <section class="text-center pt-8 border-t-2 border-orange-100">
+        <h2 class="text-2xl font-bold text-orange-800 mb-4">Our Commitment to Customers</h2>
+        <p class="text-gray-700 mb-4 max-w-2xl mx-auto">
+          At DAIDAI, we are committed to providing quality Filipino food, carefully selected products, and reliable customer service.<br><br>
+          We value honesty, transparency, fairness, and respect in every customer interaction. By maintaining clear policies and responsible business practices, we aim to create a welcoming and trustworthy experience for everyone who visits our restaurant, shops at our store, or connects with us online.
+        </p>
+        <p class="text-xl font-bold text-orange-900 mt-6">DAIDAI – Tindahan • Ihawan • Kitchenette</p>
+        <p class="text-lg font-medium text-orange-600 mt-2 italic">Tara, Kain Tayo sa DAIDAI!</p>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-daidai-dark text-white pt-16 pb-8 border-t-4 border-ph-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+                
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-60 h-auto object-cover">
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Authentic Filipino Restaurant & Store in Japan. Offering home-cooked meals, groceries, and party packages with true Filipino hospitality.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/daidaikitchenette/" rel="noopener noreferrer" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-ph-blue hover:text-white transition duration-300 text-xl text-gray-300">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Home</a></li>
+                        <li><a href="/#about" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> About Us</a></li>
+                        <li><a href="/#menu" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Menu Highlights</a></li>
+                        <li><a href="/#store" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Store Location</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1 text-daidai-orange"></i>
+                            <span>4-11-1 Nishi Ichiba, Kiyosu-shi,<br>Aichi, Japan, 452-0941</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-daidai-orange"></i>
+                            <a href="tel:+819058774261" class="hover:text-white transition">+81 90-5877-4261</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-clock text-daidai-orange"></i>
+                            <span>Fri-Wed: 11AM - 9PM (Thu Closed)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">
+                    &copy; <span id="year"></span> DAIDAI Tindahan, Ihawan & Kitchenette. All rights reserved.
+                </p>
+                <p>
+                    <a href="privacy.html" class="text-gray-500 text-xs">Privacy Policy
+                        <span class="text-decoration: underline">EN</span>
+                    </a>
+                <span>
+                    <a href="privacy-ja.html" class="text-gray-500 text-xs"> / プライバシーポリシー
+                        <span style="text-decoration: underline">日本語</span>
+                    </a>
+                </span>
+                </p>
+                <p>
+                    <a href="terms-en.html" class="text-gray-500 text-xs">Terms of Service
+                        <span class="text-decoration: underline">EN</span>
+                    </a>
+                <span>
+                    <a href="terms-ja.html" class="text-gray-500 text-xs"> / 利用規約
+                        <span style="text-decoration: underline">日本語</span>
+                    </a>
+                </span>
+                </p>
+                <div class="flex items-center gap-2 text-sm text-gray-500">
+                    Made with <i class="fa-solid fa-heart text-ph-red"></i> for the Filipino community in Japan.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
