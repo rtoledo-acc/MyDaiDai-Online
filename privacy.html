@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | DAIDAI – Tindahan • Ihawan • Kitchenette</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan. Taste the warmth of Filipino hospitality.">
+    <meta name="keywords" content="Filipino food, Philippine cuisine, DAIDAI, Aichi, Kiyosu-shi, Japan restaurant, sari-sari store, ihawan, Filipino grocery, halo-halo">
+    <meta name="author" content="DAIDAI">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mydaidai.online/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mydaidai.online/">
+    <meta property="og:title" content="DAIDAI | Authentic Filipino Cuisine in Aichi, Japan">
+    <meta property="og:description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan.">
+    <meta property="og:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mydaidai.online/">
+    <meta name="twitter:title" content="DAIDAI | Authentic Filipino Cuisine in Aichi, Japan">
+    <meta name="twitter:description" content="DAIDAI offers authentic Filipino cuisine, a kitchenette, grill (ihawan), and sari-sari store in Kiyosu-shi, Aichi, Japan.">
+    <meta name="twitter:image" content="https://ik.imagekit.io/RToledoVAS/Untitled%20design%20(45).png">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'Noto Sans JP', 'sans-serif'],
+                        script: ['Dancing Script', 'cursive'],
+                    },
+                    colors: {
+                        ph: {
+                            blue: '#0038A8',
+                            red: '#CE1126',
+                            yellow: '#FCD116',
+                        },
+                        daidai: {
+                            orange: '#F97316',
+                            light: '#FFF7ED',
+                            dark: '#1E293B',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-daidai-dark bg-daidai-light overflow-x-hidden">
+
+    <section id="home">
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="flex items-center gap-2">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-40 h-auto object-cover">
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="index.html" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Home<span class="text-xs font-normal block">ホームページ</span></a>
+                    <a href="/#about" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">About<span class="text-xs font-normal block">当店について</span></a>
+                    <a href="/#menu" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Menu<span class="text-xs font-normal block">メニュー</span></a>
+                    <a href="/#store" class="text-center text-gray-700 hover:text-daidai-orange font-semibold transition">Store<span class="text-xs font-normal block">店舗情報</span></a>
+                    <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="bg-ph-blue hover:bg-blue-800 text-white px-5 py-2 rounded-full font-bold transition shadow-lg flex items-center gap-2">
+                        <i class="fa-brands fa-facebook"></i> Message Us / お問い合わせ
+                    </a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-daidai-orange focus:outline-none p-2">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-xl absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="index.html" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Home / ホームページ</a>
+                <a href="/#about" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">About / 当店について</a>
+                <a href="/#menu" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Menu / メニュー</a>
+                <a href="/#store" class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-daidai-orange hover:bg-gray-50 rounded-md">Store / 店舗情報</a>
+                <a href="https://messenger.mydaidai.online" rel="noopener noreferrer" target="_blank" class="block px-3 py-3 text-base font-bold text-ph-blue hover:bg-gray-50 rounded-md">
+                    <i class="fa-brands fa-facebook mr-2"></i> Facebook / お問い合わせ
+                </a>
+            </div>
+        </div>
+    </nav>
+    </section>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
+            
+            <!-- Page Title -->
+            <div class="mb-10 text-center md:text-left border-b border-gray-100 pb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Privacy Policy</h1>
+                <div class="flex flex-col sm:flex-row sm:gap-3 items-center sm:justify-start justify-center">
+                    <p class="text-brand-600 font-medium bg-brand-50 inline-block px-4 py-1.5 rounded-full text-sm mb-2 sm:mb-0">
+                        Effective Date: October 27, 2026
+                    </p>
+                    <p class="text-gray-600 font-medium bg-gray-100 inline-block px-4 py-1.5 rounded-full text-sm">
+                        Last Updated: October 27, 2026
+                    </p>
+                </div>
+            </div>
+
+            <div class="prose prose-brand max-w-none text-gray-600 leading-relaxed">
+                
+                <!-- Section 1 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">1</span>
+                        Introduction
+                    </h2>
+                    <p class="mb-3 text-lg text-gray-700">Welcome to <strong>DAIDAI – Tindahan • Ihawan • Kitchenette</strong> (“DAIDAI,” “we,” “us,” or “our”).</p>
+                    <p class="mb-3">We value your trust and are committed to protecting your personal information when you visit our website, communicate with us, browse our products, place orders, or interact with our business through supported third-party platforms.</p>
+                    <p class="mb-3">This Privacy Policy explains how we collect, use, disclose, retain, and protect personal information in connection with our website and business operations. Our privacy practices are intended to comply with applicable laws and regulations in Japan, including the Act on the Protection of Personal Information (APPI).</p>
+                    <p class="mb-2 font-medium text-gray-800">This policy covers interactions with:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-4">
+                        <li>Our official DAIDAI website.</li>
+                        <li>Our Facebook Page.</li>
+                        <li>Facebook Messenger.</li>
+                        <li>Uber Eats pickup and delivery services.</li>
+                        <li>Google Business Profile, Google Search, and Google Maps.</li>
+                        <li>Direct customer inquiries, reservations, and purchases.</li>
+                    </ul>
+                    <p>By using our website, you acknowledge that you have been provided with this Privacy Policy. Where consent is legally required, we will request it separately.</p>
+                </section>
+
+                <!-- Section 2 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">2</span>
+                        Information We Collect
+                    </h2>
+                    <p class="mb-5">We may collect personal information that you voluntarily provide or that becomes available to us through your interactions with our services.</p>
+                    
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">2.1 Personal and Contact Information</h3>
+                    <p class="mb-2">This may include:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-5">
+                        <li>Full name or preferred name.</li>
+                        <li>Contact number.</li>
+                        <li>Email address, when provided.</li>
+                        <li>Delivery address, when required.</li>
+                        <li>Other contact information voluntarily submitted.</li>
+                    </ul>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">2.2 Order and Transaction Information</h3>
+                    <p class="mb-2">When you inquire about or purchase our products, we may collect:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-5">
+                        <li>Food and product selections.</li>
+                        <li>Order quantities and special instructions.</li>
+                        <li>Pickup or delivery preferences.</li>
+                        <li>Reservation information.</li>
+                        <li>Transaction records.</li>
+                        <li>Customer service requests and order-related feedback.</li>
+                    </ul>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">2.3 Website Information</h3>
+                    <p class="mb-2">When you visit our website, certain technical information may be collected automatically by our website hosting provider or enabled website services. Depending on our website configuration, this may include:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-3">
+                        <li>IP address.</li>
+                        <li>Browser type and device information.</li>
+                        <li>Operating system.</li>
+                        <li>Pages visited.</li>
+                        <li>Date and time of website access.</li>
+                        <li>Referring website or traffic source.</li>
+                        <li>Cookies and similar technologies.</li>
+                    </ul>
+                    <p class="mb-5">We use this information only where applicable to the operation, security, maintenance, and improvement of our website.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">2.4 Social Media and Third-Party Information</h3>
+                    <p>When you interact with DAIDAI through Facebook, Messenger, Uber Eats, or Google Business Profile, we may receive information made available to our business through those platforms. The information we receive depends on your interactions, the platform's functionality, and its privacy settings.</p>
+                </section>
+
+                <!-- Section 3 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">3</span>
+                        How We Use Your Information
+                    </h2>
+                    <p class="mb-3">DAIDAI may process personal information for the following purposes:</p>
+                    <ol class="list-decimal pl-5 md:pl-11 space-y-2 mb-4 font-medium text-gray-700">
+                        <li>Responding to customer inquiries and messages.</li>
+                        <li>Processing and confirming food and product orders.</li>
+                        <li>Coordinating pickup and delivery services.</li>
+                        <li>Managing reservations and special requests.</li>
+                        <li>Providing customer support.</li>
+                        <li>Responding to reviews, feedback, and complaints.</li>
+                        <li>Improving website functionality and customer experience.</li>
+                        <li>Maintaining business and transaction records.</li>
+                        <li>Communicating promotional offers when legally permitted.</li>
+                        <li>Protecting our website and business from unauthorized activities.</li>
+                        <li>Complying with applicable legal and regulatory requirements.</li>
+                    </ol>
+                    <p>We will not use personal information for purposes incompatible with those disclosed in this policy unless permitted by applicable law or supported by any required consent.</p>
+                </section>
+
+                <!-- Section 4 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">4</span>
+                        Website Privacy and Data Collection
+                    </h2>
+                    <p class="mb-5">Our website provides information about DAIDAI, including our restaurant, products, menus, store location, operating hours, promotions, and ordering options.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">4.1 Website Browsing</h3>
+                    <p class="mb-5">Visitors may browse publicly available website content without directly submitting personal information. However, our website hosting provider may process certain technical information necessary to operate and secure the website.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">4.2 Contact Forms and Customer Inquiries</h3>
+                    <p class="mb-5">If our website provides contact forms, inquiry forms, or reservation features, information submitted through those features may be used to respond to requests and provide customer assistance. We request only information reasonably necessary for the intended service.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">4.3 Website Ordering Features</h3>
+                    <p class="mb-5">If customers place orders directly through our website, we may collect the information necessary to process those orders. If an ordering button redirects customers to Uber Eats or another third-party platform, the relevant platform's privacy policy will also apply.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">4.4 External Links</h3>
+                    <p>Our website may contain links to social media pages, ordering platforms, maps, or other external websites. When visitors leave our website, their interactions with the destination platform are governed by that platform's applicable privacy policies.</p>
+                </section>
+
+                <!-- Section 5 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">5</span>
+                        Facebook and Facebook Messenger Privacy
+                    </h2>
+                    <p class="mb-5">DAIDAI maintains an official Facebook Page to share restaurant announcements, promotional content, product availability, and business information. Customers may also communicate with us through Facebook Messenger.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">5.1 Information We May Receive</h3>
+                    <p class="mb-2">Depending on your interaction, we may receive:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-5">
+                        <li>Publicly available profile information.</li>
+                        <li>Messages sent to our business.</li>
+                        <li>Customer inquiries.</li>
+                        <li>Comments and reviews.</li>
+                        <li>Information voluntarily provided for orders or reservations.</li>
+                    </ul>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">5.2 How We Use This Information</h3>
+                    <p class="mb-2">We use information received through Facebook and Messenger to:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-5">
+                        <li>Respond to inquiries.</li>
+                        <li>Assist customers with orders.</li>
+                        <li>Provide product and store information.</li>
+                        <li>Address customer concerns.</li>
+                        <li>Manage legitimate business communications.</li>
+                    </ul>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">5.3 Meta's Privacy Practices</h3>
+                    <p class="mb-3">Facebook and Messenger are services provided by Meta. Meta may independently collect and process personal information, including information related to accounts, platform activity, communications, and advertising.</p>
+                    <p class="mb-3">DAIDAI does not control Meta's independent collection, processing, or retention of personal information. Customers should review Meta's Privacy Policy to understand how their information is handled when using Facebook and Messenger.</p>
+                    <div class="bg-gray-50 p-4 rounded-lg border border-gray-100 space-y-2 text-sm">
+                        <p><strong>Official DAIDAI Facebook Page:</strong><br> <a href="https://www.facebook.com/daidaikitchenette" class="text-brand-600 hover:underline break-all" target="_blank">https://www.facebook.com/daidaikitchenette</a></p>
+                        <p><strong>Meta Privacy Policy:</strong><br> <a href="https://www.facebook.com/privacy/policy/" class="text-brand-600 hover:underline break-all" target="_blank">https://www.facebook.com/privacy/policy/</a></p>
+                    </div>
+                </section>
+
+                <!-- Section 6 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">6</span>
+                        Uber Eats Privacy and Online Ordering
+                    </h2>
+                    <p class="mb-5">DAIDAI offers ordering options through Uber Eats, including pickup and delivery where available. Customers who access Uber Eats through our website or place orders directly through the Uber Eats application are subject to Uber's applicable privacy policies and terms.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">6.1 Information Processed by Uber Eats</h3>
+                    <p class="mb-2">Uber Eats may independently collect and process information related to:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-3">
+                        <li>Customer accounts.</li>
+                        <li>Contact details.</li>
+                        <li>Order history.</li>
+                        <li>Delivery locations.</li>
+                        <li>Payment transactions.</li>
+                        <li>Platform activity.</li>
+                        <li>Customer support communications.</li>
+                    </ul>
+                    <p class="mb-5">The collection and processing of this information are governed by Uber's applicable Privacy Notice.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">6.2 Information Shared With DAIDAI</h3>
+                    <p class="mb-2">To prepare and fulfill customer orders, DAIDAI may receive limited information through the Uber Eats merchant platform, including:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-5">
+                        <li>Customer names or order identifiers.</li>
+                        <li>Ordered products.</li>
+                        <li>Special instructions.</li>
+                        <li>Pickup or delivery status.</li>
+                        <li>Transaction information.</li>
+                        <li>Contact details when made available through authorized platform features.</li>
+                    </ul>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">6.3 How DAIDAI Uses Uber Eats Information</h3>
+                    <p class="mb-2">We use information received through Uber Eats to:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-3">
+                        <li>Prepare and fulfill orders.</li>
+                        <li>Coordinate pickup and delivery.</li>
+                        <li>Resolve order-related issues.</li>
+                        <li>Respond to customer concerns.</li>
+                        <li>Maintain necessary business records.</li>
+                    </ul>
+                    <p class="mb-5">Customer information received through Uber Eats will not be used for unrelated direct marketing unless permitted by applicable law, platform agreements, and any required customer authorization.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">6.4 Payments and Delivery Services</h3>
+                    <p class="mb-3">Payments processed through Uber Eats are handled according to Uber's applicable payment procedures. DAIDAI does not generally receive customers' complete payment card information through the Uber Eats merchant interface.</p>
+                    <p class="mb-5">Delivery coordination and related platform services may involve independent processing by Uber and its authorized service providers.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">6.5 Uber Eats Privacy Notice</h3>
+                    <p class="mb-2">Customers are encouraged to review Uber's Privacy Notice before placing orders through the platform.</p>
+                    <div class="bg-gray-50 p-4 rounded-lg border border-gray-100 text-sm">
+                        <p><strong>Uber Privacy Notice – Japan:</strong><br> <a href="https://www.uber.com/legal/en/document/?name=privacy-notice&country=japan&lang=en" class="text-brand-600 hover:underline break-all" target="_blank">https://www.uber.com/legal/en/document/?name=privacy-notice&country=japan&lang=en</a></p>
+                    </div>
+                </section>
+
+                <!-- Section 7 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">7</span>
+                        Google Business Profile and Google Maps
+                    </h2>
+                    <p class="mb-2">DAIDAI maintains a Google Business Profile to help customers find information about our restaurant and store through Google Search and Google Maps. Our business listing may display:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-5 grid grid-cols-1 sm:grid-cols-2">
+                        <li>Store name.</li>
+                        <li>Business address.</li>
+                        <li>Contact number.</li>
+                        <li>Operating hours.</li>
+                        <li>Website information.</li>
+                        <li>Business photos.</li>
+                        <li>Customer reviews.</li>
+                        <li>Directions and location information.</li>
+                    </ul>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">7.1 Google Business Profile Interactions</h3>
+                    <p class="mb-5">When customers interact with our Google Business Profile, Google may independently collect and process information associated with those interactions. This may include searches, reviews, location-related information, and other activity, depending on Google's services and the customer's privacy settings.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">7.2 Customer Reviews and Feedback</h3>
+                    <p class="mb-5">Customers may voluntarily submit ratings, reviews, and photos through Google. DAIDAI may view and respond to publicly available reviews to address feedback and provide customer assistance. Public reviews and associated profile information may remain visible according to Google's policies and the customer's account settings.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">7.3 Google Maps Integration</h3>
+                    <p class="mb-5">Our website may include links to Google Maps or an embedded map to help customers locate our store. When visitors interact with Google Maps, Google may process information according to its own privacy practices.</p>
+
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">7.4 Google's Privacy Practices</h3>
+                    <p class="mb-2">Google independently manages personal information processed through its services, including Google Search, Google Maps, and Google Business Profile. DAIDAI does not control Google's independent data processing activities.</p>
+                    <div class="bg-gray-50 p-4 rounded-lg border border-gray-100 text-sm">
+                        <p><strong>Google Privacy Policy:</strong><br> <a href="https://policies.google.com/privacy" class="text-brand-600 hover:underline break-all" target="_blank">https://policies.google.com/privacy</a></p>
+                    </div>
+                </section>
+
+                <!-- Sections 8-11 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">8</span>
+                        Cookies and Similar Technologies
+                    </h2>
+                    <p class="mb-2">Our website may use cookies or similar technologies to support essential website functionality. Depending on the services enabled on our website, cookies may be used for:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-3">
+                        <li>Website functionality.</li>
+                        <li>Security and fraud prevention.</li>
+                        <li>Remembering visitor preferences.</li>
+                        <li>Website performance monitoring.</li>
+                        <li>Analytics, if implemented.</li>
+                        <li>Third-party integrations.</li>
+                    </ul>
+                    <p>Where required by applicable law, we will provide appropriate information and obtain any necessary consent before using non-essential tracking technologies. Visitors may manage cookies through their browser settings. Disabling certain cookies may affect website functionality.</p>
+                </section>
+
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">9</span>
+                        Sharing and Disclosure of Information
+                    </h2>
+                    <p class="mb-3 font-semibold text-gray-800">DAIDAI does not sell customer personal information.</p>
+                    <p class="mb-2">We may disclose relevant personal information when reasonably necessary to:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-3">
+                        <li>Fulfill customer orders.</li>
+                        <li>Coordinate delivery or pickup.</li>
+                        <li>Provide requested customer services.</li>
+                        <li>Operate and maintain our website.</li>
+                        <li>Resolve disputes.</li>
+                        <li>Comply with legal obligations.</li>
+                    </ul>
+                    <p>Recipients may include authorized website service providers, ordering and delivery partners, and other service providers involved in legitimate business operations. Where applicable, we will implement appropriate safeguards and comply with legal requirements concerning third-party disclosures and international transfers of personal information.</p>
+                </section>
+
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">10</span>
+                        Data Storage and Security
+                    </h2>
+                    <p class="mb-2">DAIDAI takes reasonable organizational and technical measures to protect personal information from unauthorized access, misuse, disclosure, alteration, or loss. These measures may include:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-3">
+                        <li>Restricting access to authorized personnel.</li>
+                        <li>Protecting business accounts and administrative access.</li>
+                        <li>Using appropriate security controls.</li>
+                        <li>Limiting unnecessary collection and disclosure.</li>
+                        <li>Reviewing privacy and security practices when appropriate.</li>
+                    </ul>
+                    <p>While we take reasonable precautions, no website, electronic communication system, or digital platform can guarantee absolute security.</p>
+                </section>
+
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">11</span>
+                        Data Retention
+                    </h2>
+                    <p class="mb-3">We retain personal information only for as long as reasonably necessary to fulfill the purposes described in this policy or meet applicable legal obligations. Retention periods may vary depending on the information involved, including customer inquiries, transactions, reservations, and business records.</p>
+                    <p>When information is no longer required, we will take reasonable steps to delete or securely dispose of it. Information independently stored by Facebook, Messenger, Uber Eats, or Google is governed by the respective platform's retention practices.</p>
+                </section>
+
+                <!-- Sections 12-18 -->
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">12</span>
+                        Customer Privacy Rights
+                    </h2>
+                    <p class="mb-2">Subject to applicable Japanese privacy laws, customers may have the right to request:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-3">
+                        <li>Disclosure of personal information held by DAIDAI.</li>
+                        <li>Correction of inaccurate or outdated information.</li>
+                        <li>Deletion of personal information under applicable circumstances.</li>
+                        <li>Suspension of certain uses of personal information.</li>
+                        <li>Information about how personal data is processed.</li>
+                    </ul>
+                    <p class="mb-3">Requests may be subject to identity verification, legal limitations, and applicable exceptions. Customers wishing to exercise these rights may contact DAIDAI using the contact details provided below.</p>
+                    <p>For personal information controlled independently by Meta, Uber, or Google, customers should use the privacy request procedures provided by the relevant platform.</p>
+                </section>
+
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">13</span>
+                        Marketing and Promotional Communications
+                    </h2>
+                    <p class="mb-3">DAIDAI may publish promotional information through its website, Facebook Page, and other official communication channels. We may also respond to customers who voluntarily inquire about promotions, product availability, or special offers.</p>
+                    <p class="mb-3">Where direct marketing communications require consent or another legal basis, we will follow the applicable requirements. Customers may request that DAIDAI discontinue promotional communications directed to them.</p>
+                    <p>We do not automatically treat an Uber Eats order, Facebook interaction, or Google review as permission to send unrelated promotional messages.</p>
+                </section>
+
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">14</span>
+                        Children's Privacy
+                    </h2>
+                    <p class="mb-3">Our website and services are intended for general customers. We do not knowingly solicit unnecessary personal information from children.</p>
+                    <p>If a parent or legal guardian believes that a child has provided personal information requiring correction or deletion, they may contact us for assistance.</p>
+                </section>
+
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">15</span>
+                        Third-Party Websites and Services
+                    </h2>
+                    <p class="mb-3">Our website may link to services operated by third parties. These include:</p>
+                    <ul class="space-y-4 mb-4 pl-0 md:pl-11">
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100">
+                            <strong>Facebook and Facebook Messenger</strong><br>
+                            <span class="text-sm">Used for customer engagement, announcements, inquiries, and communications.</span>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100">
+                            <strong>Uber Eats</strong><br>
+                            <span class="text-sm">Used for food ordering, pickup, and delivery services.</span>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100">
+                            <strong>Google Business Profile and Google Maps</strong><br>
+                            <span class="text-sm">Used for business discovery, directions, customer reviews, and location information.</span>
+                        </li>
+                    </ul>
+                    <p>Each provider maintains its own privacy policies, terms, and data-handling practices. DAIDAI's Privacy Policy governs personal information handled by our business. It does not replace the privacy policies of these independent platforms.</p>
+                </section>
+
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">16</span>
+                        International Data Processing
+                    </h2>
+                    <p class="mb-3">Some third-party services used by DAIDAI may process or store information outside Japan. Such processing may occur under the privacy policies and contractual arrangements of the relevant providers.</p>
+                    <p>Where DAIDAI is responsible for transferring personal information internationally, we will take appropriate steps to comply with applicable Japanese privacy requirements.</p>
+                </section>
+
+                <section class="mb-10">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">17</span>
+                        Changes to This Privacy Policy
+                    </h2>
+                    <p class="mb-2">DAIDAI reserves the right to update this Privacy Policy to reflect changes in:</p>
+                    <ul class="list-disc pl-5 md:pl-11 space-y-1 mb-3 grid grid-cols-1 sm:grid-cols-2">
+                        <li>Website functionality.</li>
+                        <li>Business operations.</li>
+                        <li>Ordering and delivery services.</li>
+                        <li>Third-party integrations.</li>
+                        <li>Applicable privacy laws.</li>
+                        <li>Data protection practices.</li>
+                    </ul>
+                    <p>Any revised policy will be published on our website with an updated effective date. We encourage visitors to review this page periodically.</p>
+                </section>
+
+                <section class="mb-12">
+                    <h2 class="text-xl md:text-2xl font-semibold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-brand-100 text-brand-700 rounded-full w-8 h-8 flex-shrink-0 flex items-center justify-center mr-3 text-sm font-bold">18</span>
+                        Contact Information
+                    </h2>
+                    <p class="mb-4">For questions, concerns, or requests relating to this Privacy Policy, please contact:</p>
+                    
+                    <div class="bg-gradient-to-br from-brand-50 to-white p-6 rounded-xl border border-brand-100 shadow-sm space-y-3 text-gray-800">
+                        <p class="font-bold text-lg text-brand-700 border-b border-brand-100 pb-2">DAIDAI – Tindahan • Ihawan • Kitchenette</p>
+                        
+                        <div class="flex items-start mt-3">
+                            <span class="text-brand-500 mr-3 mt-1">📍</span>
+                            <div>
+                                <span class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Business Address</span>
+                                <span>4-11-1 Nishi Ichiba, Kiyosu-shi, Aichi, Japan</span>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <span class="text-brand-500 mr-3 mt-1">📞</span>
+                            <div>
+                                <span class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Contact Number</span>
+                                <span>+81 90-5877-4261</span>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <span class="text-brand-500 mr-3 mt-1">📘</span>
+                            <div>
+                                <span class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Facebook Page</span>
+                                <a href="https://www.facebook.com/daidaikitchenette" target="_blank" rel="noopener noreferrer" class="text-brand-600 hover:underline break-all">
+                                    https://www.facebook.com/daidaikitchenette
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start pt-2">
+                            <span class="text-brand-500 mr-3 mt-1">🍽️</span>
+                            <div>
+                                <span class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Business Services</span>
+                                <span class="font-medium">Dine-In • Takeout • Uber Eats Pickup & Delivery</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-sm italic">Privacy-related requests may be submitted through our official business contact channels.</p>
+                </section>
+                
+                <!-- Closing Commitment -->
+                <div class="mt-12 pt-8 border-t-2 border-dashed border-gray-200 text-center bg-gray-50 rounded-b-2xl -mx-8 -mb-8 p-8 md:-mx-12 md:-mb-12 md:p-12">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Our Privacy Commitment</h3>
+                    <p class="text-gray-700 max-w-2xl mx-auto mb-6">
+                        At DAIDAI, protecting our customers' privacy is part of providing trustworthy and reliable service. Whether you browse our website, visit our restaurant, contact us through Facebook Messenger, discover us on Google Maps, or place an order through Uber Eats, we are committed to handling the personal information entrusted to our business responsibly.
+                    </p>
+                    <p class="font-bold text-lg text-brand-700">DAIDAI – Tindahan • Ihawan • Kitchenette</p>
+                    <p class="text-brand-500 font-medium mt-1">Tara, Kain Tayo sa DAIDAI!</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-daidai-dark text-white pt-16 pb-8 border-t-4 border-ph-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+                
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://ik.imagekit.io/RToledoVAS/DAIDAI%20Text%20Rectangle%20Logo_Landscape.png" 
+                             alt="DAIDAI Rectangular Logo" 
+                             class="w-60 h-auto object-cover">
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Authentic Filipino Restaurant & Store in Japan. Offering home-cooked meals, groceries, and party packages with true Filipino hospitality.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/daidaikitchenette/" rel="noopener noreferrer" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-ph-blue hover:text-white transition duration-300 text-xl text-gray-300">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Home</a></li>
+                        <li><a href="/#about" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> About Us</a></li>
+                        <li><a href="/#menu" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Menu Highlights</a></li>
+                        <li><a href="/#store" class="text-gray-400 hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-chevron-right text-xs text-daidai-orange"></i> Store Location</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4 border-b border-gray-700 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1 text-daidai-orange"></i>
+                            <span>4-11-1 Nishi Ichiba, Kiyosu-shi,<br>Aichi, Japan, 452-0941</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-daidai-orange"></i>
+                            <a href="tel:+819058774261" class="hover:text-white transition">+81 90-5877-4261</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-clock text-daidai-orange"></i>
+                            <span>Fri-Wed: 11AM - 9PM (Thu Closed)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">
+                    &copy; <span id="year"></span> DAIDAI Tindahan, Ihawan & Kitchenette. All rights reserved.
+                </p>
+                <p>
+                    <a href="privacy.html" class="text-gray-500 text-xs">Privacy Policy
+                        <span class="text-decoration: underline">EN</span>
+                    </a>
+                <span>
+                    <a href="privacy-ja.html" class="text-gray-500 text-xs"> / プライバシーポリシー
+                        <span style="text-decoration: underline">日本語</span>
+                    </a>
+                </span>
+                </p>
+                <p>
+                    <a href="terms.html" class="text-gray-500 text-xs">Terms of Service
+                        <span class="text-decoration: underline">EN</span>
+                    </a>
+                <span>
+                    <a href="terms-ja.html" class="text-gray-500 text-xs"> / 利用規約
+                        <span style="text-decoration: underline">日本語</span>
+                    </a>
+                </span>
+                </p>
+                <div class="flex items-center gap-2 text-sm text-gray-500">
+                    Made with <i class="fa-solid fa-heart text-ph-red"></i> for the Filipino community in Japan.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
